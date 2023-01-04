@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "海豚生态计划-微服务开发平台-文档",
   "scripts": {
-    "docs:dev": "vitepress dev .",
-    "docs:build": "vitepress build .",
-    "docs:serve": "vitepress serve ."
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:serve": "vitepress serve"
   },
   "keywords": [
     "dolphin",
