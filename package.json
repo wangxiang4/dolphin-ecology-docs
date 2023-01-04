@@ -1,15 +1,19 @@
 {
-  "name": "docs",
+  "name": "dolphin-cloud-docs",
   "version": "1.0.0",
-  "description": "A Vue 3 UI Framework",
+  "description": "海豚生态计划-微服务开发平台-文档",
   "scripts": {
     "docs:dev": "vitepress dev .",
     "docs:build": "vitepress build .",
     "docs:serve": "vitepress serve ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "dolphin",
+    "dolphin-cloud",
+    "dolphin-cloud-docs"
+  ],
+  "author": "海豚生态计划-开发人员-王翔",
+  "license": "MIT",
   "dependencies": {
     "@docsearch/js": "^3.1.0",
     "@docsearch/css": "^3.1.0",
