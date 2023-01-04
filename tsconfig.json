@@ -1,21 +1,33 @@
+/**
+ * @program: dolphin-cloud-docs
+ * @description: vite的typescript编译配置
+ * vite内部使用esbuild对typescript编译成js
+ * vite天然对typescript的支持文档: https://vitejs.bootcss.com/guide/features.html#typescript
+ * 配置官方文档: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+ * @author: entfrm开发团队-王翔
+ * @create: 2023/1/4
+ */
 {
   "compilerOptions": {
     "isolatedModules": true,
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "Node",
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "lib": ["dom", "esnext"],
     "noImplicitAny": false,
     "skipLibCheck": true,
+    "types": ["@docsearch/js"],
+    "typeRoots": ["./node_modules/@types/"],
     "paths": {
       "~/*": ["./.vitepress/vitepress/*"]
     },
     "jsx": "preserve"
   },
   "include": ["**/*", ".vitepress/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist", "**/*.js"]
 }
