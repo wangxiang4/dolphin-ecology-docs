@@ -1,0 +1,632 @@
+{
+  "en-US": {
+    "basic": {
+      "text": "Basic",
+      "children": [
+        {
+          "link": "/button",
+          "text": "Button"
+        },
+        {
+          "link": "/border",
+          "text": "Border"
+        },
+        {
+          "link": "/color",
+          "text": "Color"
+        },
+        {
+          "link": "/container",
+          "text": "Layout Container"
+        },
+        {
+          "link": "/icon",
+          "text": "Icon"
+        },
+        {
+          "link": "/layout",
+          "text": "Layout"
+        },
+        {
+          "link": "/link",
+          "text": "Link"
+        },
+        {
+          "link": "/scrollbar",
+          "text": "Scrollbar"
+        },
+        {
+          "link": "/space",
+          "text": "Space"
+        },
+        {
+          "link": "/typography",
+          "text": "Typography"
+        }
+      ]
+    },
+    "configuration": {
+      "text": "Configuration",
+      "children": [
+        {
+          "link": "/config-provider",
+          "text": "Config Provider"
+        }
+      ]
+    },
+    "form": {
+      "text": "Form",
+      "children": [
+        {
+          "link": "/cascader",
+          "text": "Cascader"
+        },
+        {
+          "link": "/checkbox",
+          "text": "Checkbox"
+        },
+        {
+          "link": "/color-picker",
+          "text": "Color Picker"
+        },
+        {
+          "link": "/date-picker",
+          "text": "Date Picker"
+        },
+        {
+          "link": "/datetime-picker",
+          "text": "DateTime Picker"
+        },
+        {
+          "link": "/form",
+          "text": "Form"
+        },
+        {
+          "link": "/input",
+          "text": "Input"
+        },
+        {
+          "link": "/input-number",
+          "text": "Input Number"
+        },
+        {
+          "link": "/radio",
+          "text": "Radio"
+        },
+        {
+          "link": "/rate",
+          "text": "Rate"
+        },
+        {
+          "link": "/select",
+          "text": "Select"
+        },
+        {
+          "link": "/select-v2",
+          "text": "Virtualized Select"
+        },
+        {
+          "link": "/slider",
+          "text": "Slider"
+        },
+        {
+          "link": "/switch",
+          "text": "Switch"
+        },
+        {
+          "link": "/time-picker",
+          "text": "Time Picker"
+        },
+        {
+          "link": "/time-select",
+          "text": "Time Select"
+        },
+        {
+          "link": "/transfer",
+          "text": "Transfer"
+        },
+        {
+          "link": "/upload",
+          "text": "Upload"
+        }
+      ]
+    },
+    "data": {
+      "text": "Data",
+      "children": [
+        {
+          "link": "/avatar",
+          "text": "Avatar"
+        },
+        {
+          "link": "/badge",
+          "text": "Badge"
+        },
+        {
+          "link": "/calendar",
+          "text": "Calendar"
+        },
+        {
+          "link": "/card",
+          "text": "Card"
+        },
+        {
+          "link": "/carousel",
+          "text": "Carousel"
+        },
+        {
+          "link": "/collapse",
+          "text": "Collapse"
+        },
+        {
+          "link": "/descriptions",
+          "text": "Descriptions"
+        },
+        {
+          "link": "/empty",
+          "text": "Empty"
+        },
+        {
+          "link": "/image",
+          "text": "Image"
+        },
+        {
+          "link": "/infinite-scroll",
+          "text": "Infinite Scroll"
+        },
+        {
+          "link": "/pagination",
+          "text": "Pagination"
+        },
+        {
+          "link": "/progress",
+          "text": "Progress"
+        },
+        {
+          "link": "/result",
+          "text": "Result"
+        },
+        {
+          "link": "/skeleton",
+          "text": "Skeleton"
+        },
+        {
+          "link": "/table",
+          "text": "Table"
+        },
+        {
+          "link": "/table-v2",
+          "text": "Virtualized Table",
+          "promotion": "2.2.0"
+        },
+        {
+          "link": "/tag",
+          "text": "Tag"
+        },
+        {
+          "link": "/timeline",
+          "text": "Timeline"
+        },
+        {
+          "link": "/tree",
+          "text": "Tree"
+        },
+        {
+          "link": "/tree-select",
+          "text": "TreeSelect",
+          "promotion": "2.1.8"
+        },
+        {
+          "link": "/tree-v2",
+          "text": "Virtualized Tree"
+        }
+      ]
+    },
+    "navigation": {
+      "text": "Navigation",
+      "children": [
+        {
+          "link": "/affix",
+          "text": "Affix"
+        },
+        {
+          "link": "/backtop",
+          "text": "Backtop"
+        },
+        {
+          "link": "/breadcrumb",
+          "text": "Breadcrumb"
+        },
+        {
+          "link": "/dropdown",
+          "text": "Dropdown"
+        },
+        {
+          "link": "/menu",
+          "text": "Menu"
+        },
+        {
+          "link": "/page-header",
+          "text": "Page Header"
+        },
+        {
+          "link": "/steps",
+          "text": "Steps"
+        },
+        {
+          "link": "/tabs",
+          "text": "Tabs"
+        }
+      ]
+    },
+    "feedback": {
+      "text": "Feedback",
+      "children": [
+        {
+          "link": "/alert",
+          "text": "Alert"
+        },
+        {
+          "link": "/dialog",
+          "text": "Dialog"
+        },
+        {
+          "link": "/drawer",
+          "text": "Drawer"
+        },
+        {
+          "link": "/loading",
+          "text": "Loading"
+        },
+        {
+          "link": "/message",
+          "text": "Message"
+        },
+        {
+          "link": "/message-box",
+          "text": "Message Box"
+        },
+        {
+          "link": "/notification",
+          "text": "Notification"
+        },
+        {
+          "link": "/popconfirm",
+          "text": "Pop Confirm"
+        },
+        {
+          "link": "/popover",
+          "text": "Popover"
+        },
+        {
+          "link": "/tooltip",
+          "text": "Tooltip"
+        }
+      ]
+    },
+    "others": {
+      "text": "Others",
+      "children": [
+        {
+          "link": "/divider",
+          "text": "Divider"
+        }
+      ]
+    }
+  },
+  "zh-CN": {
+    "basic": {
+      "text": "Basic 基础组件",
+      "children": [
+        {
+          "link": "/button",
+          "text": "Button 按钮"
+        },
+        {
+          "link": "/border",
+          "text": "Border 边框"
+        },
+        {
+          "link": "/color",
+          "text": "Color 色彩"
+        },
+        {
+          "link": "/container",
+          "text": "Layout Container 布局容器"
+        },
+        {
+          "link": "/icon",
+          "text": "Icon 图标"
+        },
+        {
+          "link": "/layout",
+          "text": "Layout 布局"
+        },
+        {
+          "link": "/link",
+          "text": "Link 链接"
+        },
+        {
+          "link": "/scrollbar",
+          "text": "Scrollbar 滚动条"
+        },
+        {
+          "link": "/space",
+          "text": "Space 间距"
+        },
+        {
+          "link": "/typography",
+          "text": "Typography 排版"
+        }
+      ]
+    },
+    "configuration": {
+      "text": "Configuration 配置",
+      "children": [
+        {
+          "link": "/config-provider",
+          "text": "Config Provider 全局配置"
+        }
+      ]
+    },
+    "form": {
+      "text": "Form 表单组件",
+      "children": [
+        {
+          "link": "/cascader",
+          "text": "Cascader 级联选择器"
+        },
+        {
+          "link": "/checkbox",
+          "text": "Checkbox 多选框"
+        },
+        {
+          "link": "/color-picker",
+          "text": "Color Picker 取色器"
+        },
+        {
+          "link": "/date-picker",
+          "text": "Date Picker 日期选择器"
+        },
+        {
+          "link": "/datetime-picker",
+          "text": "DateTime Picker 日期时间选择器"
+        },
+        {
+          "link": "/form",
+          "text": "Form 表单"
+        },
+        {
+          "link": "/input",
+          "text": "Input 输入框"
+        },
+        {
+          "link": "/input-number",
+          "text": "Input Number 数字输入框"
+        },
+        {
+          "link": "/radio",
+          "text": "Radio 单选框"
+        },
+        {
+          "link": "/rate",
+          "text": "Rate 评分"
+        },
+        {
+          "link": "/select",
+          "text": "Select 选择器"
+        },
+        {
+          "link": "/select-v2",
+          "text": "Virtualized Select 虚拟选择器"
+        },
+        {
+          "link": "/slider",
+          "text": "Slider 滑块"
+        },
+        {
+          "link": "/switch",
+          "text": "Switch 开关"
+        },
+        {
+          "link": "/time-picker",
+          "text": "Time Picker 时间选择器"
+        },
+        {
+          "link": "/time-select",
+          "text": "Time Select 时间选择"
+        },
+        {
+          "link": "/transfer",
+          "text": "Transfer 穿梭框"
+        },
+        {
+          "link": "/upload",
+          "text": "Upload 上传"
+        }
+      ]
+    },
+    "data": {
+      "text": "Data 数据展示",
+      "children": [
+        {
+          "link": "/avatar",
+          "text": "Avatar 头像"
+        },
+        {
+          "link": "/badge",
+          "text": "Badge 徽章"
+        },
+        {
+          "link": "/calendar",
+          "text": "Calendar 日历"
+        },
+        {
+          "link": "/card",
+          "text": "Card 卡片"
+        },
+        {
+          "link": "/carousel",
+          "text": "Carousel 走马灯"
+        },
+        {
+          "link": "/collapse",
+          "text": "Collapse 折叠面板"
+        },
+        {
+          "link": "/descriptions",
+          "text": "Descriptions 描述列表"
+        },
+        {
+          "link": "/empty",
+          "text": "Empty 空状态"
+        },
+        {
+          "link": "/image",
+          "text": "Image 图片"
+        },
+        {
+          "link": "/infinite-scroll",
+          "text": "Infinite Scroll 无线滚动"
+        },
+        {
+          "link": "/pagination",
+          "text": "Pagination 分页"
+        },
+        {
+          "link": "/progress",
+          "text": "Progress 进度条"
+        },
+        {
+          "link": "/result",
+          "text": "Result 结果"
+        },
+        {
+          "link": "/skeleton",
+          "text": "Skeleton 骨架屏"
+        },
+        {
+          "link": "/table",
+          "text": "Table 表格"
+        },
+        {
+          "link": "/table-v2",
+          "text": "Virtualized Table 虚拟表格",
+          "promotion": "2.2.0"
+        },
+        {
+          "link": "/tag",
+          "text": "Tag 标签"
+        },
+        {
+          "link": "/timeline",
+          "text": "Timeline 时间线"
+        },
+        {
+          "link": "/tree",
+          "text": "Tree 树形控件"
+        },
+        {
+          "link": "/tree-select",
+          "text": "TreeSelect 树形选择",
+          "promotion": "2.1.8"
+        },
+        {
+          "link": "/tree-v2",
+          "text": "Virtualized Tree 虚拟树形控件"
+        }
+      ]
+    },
+    "navigation": {
+      "text": "Navigation 导航组件",
+      "children": [
+        {
+          "link": "/affix",
+          "text": "Affix 图钉"
+        },
+        {
+          "link": "/backtop",
+          "text": "Backtop 回到顶部"
+        },
+        {
+          "link": "/breadcrumb",
+          "text": "Breadcrumb 面包屑"
+        },
+        {
+          "link": "/dropdown",
+          "text": "Dropdown 下拉菜单"
+        },
+        {
+          "link": "/menu",
+          "text": "Menu 菜单"
+        },
+        {
+          "link": "/page-header",
+          "text": "Page Header 页头"
+        },
+        {
+          "link": "/steps",
+          "text": "Steps 步骤条"
+        },
+        {
+          "link": "/tabs",
+          "text": "Tabs 标签页"
+        }
+      ]
+    },
+    "feedback": {
+      "text": "Feedback 反馈组件",
+      "children": [
+        {
+          "link": "/alert",
+          "text": "Alert 提示"
+        },
+        {
+          "link": "/dialog",
+          "text": "Dialog 对话框"
+        },
+        {
+          "link": "/drawer",
+          "text": "Drawer 抽屉"
+        },
+        {
+          "link": "/loading",
+          "text": "Loading 加载"
+        },
+        {
+          "link": "/message",
+          "text": "Message 消息提示"
+        },
+        {
+          "link": "/message-box",
+          "text": "Message Box 消息弹出框"
+        },
+        {
+          "link": "/notification",
+          "text": "Notification 通知"
+        },
+        {
+          "link": "/popconfirm",
+          "text": "Pop Confirm 弹出确认"
+        },
+        {
+          "link": "/popover",
+          "text": "Popover 弹出框"
+        },
+        {
+          "link": "/tooltip",
+          "text": "Tooltip 文字提示"
+        }
+      ]
+    },
+    "others": {
+      "text": "Others 其它",
+      "children": [
+        {
+          "link": "/divider",
+          "text": "Divider 分割线"
+        }
+      ]
+    }
+  }
+}
