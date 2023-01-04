@@ -4,8 +4,8 @@ import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 
 export default {
-  title: 'Element Plus',
-  description: 'a Vue 3 based component library for designers and developers',
+  title: '海豚生态计划-微服务开发平台',
+  description: '完全开源,面向开发者的海豚微服务开发平台',
   head: [
     [
       'link',
