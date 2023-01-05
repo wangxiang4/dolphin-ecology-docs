@@ -1,6 +1,6 @@
 /* https://github.com/antfu/prism-theme-vars */
-@use 'prism-theme-vars/base.css';
-@use 'prism-theme-vars/marker.css';
+@use 'node_modules/prism-theme-vars/base.css';
+@use 'node_modules/prism-theme-vars/marker.css';
 
 [class*='language-']:before {
   font-family: var(--code-font-family);

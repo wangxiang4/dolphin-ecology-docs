@@ -9,20 +9,23 @@
  */
 {
   "compilerOptions": {
-    "isolatedModules": true,
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+    "isolatedModules": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+    "allowJs": true,
     "lib": ["dom", "esnext"],
+    "noImplicitThis" : false,
     "noImplicitAny": false,
     "skipLibCheck": true,
     "types": ["@docsearch/js", "node"],
-    "typeRoots": ["./node_modules/@types/"],
+    "typeRoots": ["./node_modules/@types/", "unplugin-icons/types"],
+    "removeComments": true,
     "paths": {
       "~/*": ["./.vitepress/vitepress/*"]
     },
