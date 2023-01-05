@@ -1,5 +1,5 @@
 {
-  "name": "dolphin-cloud-docs",
+  "name": "dolphin-ecology-docs",
   "version": "1.0.0",
   "description": "海豚生态计划-微服务开发平台-文档",
   "scripts": {
@@ -9,8 +9,8 @@
   },
   "keywords": [
     "dolphin",
-    "dolphin-cloud",
-    "dolphin-cloud-docs"
+    "dolphin-ecology",
+    "dolphin-ecology-docs"
   ],
   "author": "海豚生态计划-开发人员-王翔",
   "license": "MIT",
