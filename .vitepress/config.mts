@@ -4,7 +4,7 @@ import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 
 export default {
-  title: '海豚生态计划-微服务开发平台',
+  title: '海豚生态计划-海豚开发平台生态圈',
   description: '完全开源,面向开发者的海豚微服务开发平台',
   head: [
     [

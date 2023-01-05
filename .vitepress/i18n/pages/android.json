@@ -1,0 +1,13 @@
+{
+  "zh-CN": {
+    "overview": {
+      "text": "项目介绍",
+      "children": [
+        {
+          "text": "目标定位",
+          "link": "/positioning"
+        }
+      ]
+    }
+  }
+}

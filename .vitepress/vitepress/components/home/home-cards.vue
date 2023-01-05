@@ -14,7 +14,7 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
           <resource-svg w="40" m="y-12" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
-          <a href="/guide/design.html">{{ homeLang['5'] }}</a>
+          <a href="/guide/design.html">{{ homeLang['2'] }}</a>
         </div>
       </li>
     </ul>

@@ -1,20 +1,44 @@
-import guideLocale from '../i18n/pages/guide.json'
-import componentLocale from '../i18n/pages/component.json'
+import microserviceLocale from '../i18n/pages/microservice.json'
+import vue3 from '../i18n/pages/vue3.json'
+import ios from '../i18n/pages/ios.json'
+import android from '../i18n/pages/android.json'
 
-function getGuideSidebar() {
+// 后端
+function getMicroserviceSidebar() {
   return Object.fromEntries(
-    Object.entries(guideLocale).map(([lang, val]) => [
+    Object.entries(microserviceLocale).map(([lang, val]) => [
       lang,
       Object.values(val).map((item) => mapPrefix(item, lang)),
     ])
   )
 }
 
-function getComponentsSideBar() {
+// 前端
+function getVue3SideBar() {
   return Object.fromEntries(
-    Object.entries(componentLocale).map(([lang, val]) => [
+    Object.entries(vue3).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang, '/component')),
+      Object.values(val).map((item) => mapPrefix(item, lang, '/vue3')),
+    ])
+  )
+}
+
+// ios端
+function getIosSideBar() {
+  return Object.fromEntries(
+    Object.entries(ios).map(([lang, val]) => [
+      lang,
+      Object.values(val).map((item) => mapPrefix(item, lang, '/ios')),
+    ])
+  )
+}
+
+// 安卓端
+function getAndroidSideBar() {
+  return Object.fromEntries(
+    Object.entries(android).map(([lang, val]) => [
+      lang,
+      Object.values(val).map((item) => mapPrefix(item, lang, '/android')),
     ])
   )
 }
@@ -23,8 +47,10 @@ function getComponentsSideBar() {
 // this might create duplicated data but the overhead is ignorable
 const getSidebars = () => {
   return {
-    '/guide/': getGuideSidebar(),
-    '/component/': getComponentsSideBar(),
+    '/microservice/': getMicroserviceSidebar(),
+    '/vue3/': getVue3SideBar(),
+    '/ios/': getIosSideBar(),
+    '/android/': getAndroidSideBar(),
   }
 }
 

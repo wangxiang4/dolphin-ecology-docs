@@ -6,12 +6,13 @@ type Append = Record<'headers' | 'scriptSetups', string[]>
 
 export function MarkdownTransform(): Plugin {
   return {
-    name: 'element-plus-md-transform',
+    name: 'dolphin-ecology-md-transform',
     enforce: 'pre',
     transform(code, id) {
       if (!id.endsWith('.md')) return
 
       const componentId = path.basename(id, '.md')
+      // 加载md中demo容器的实例文件
       const append: Append = {
         headers: [],
         scriptSetups: [
