@@ -23,8 +23,8 @@
     "noImplicitThis" : false,
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "types": ["@docsearch/js", "node"],
-    "typeRoots": ["./node_modules/@types/", "unplugin-icons/types"],
+    "types": ["@docsearch/js", "node", "unplugin-icons/types/vue"],
+    "typeRoots": ["./node_modules/@types/"],
     "removeComments": true,
     "paths": {
       "~/*": ["./.vitepress/vitepress/*"]
