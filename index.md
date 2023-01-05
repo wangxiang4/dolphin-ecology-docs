@@ -1,6 +1,5 @@
 ---
-title: 'A Vue 3 UI Framework'
-lang: en-US
+lang: zh-CN
 page: true
 ---
 
