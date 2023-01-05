@@ -16,6 +16,12 @@ export default defineConfig({
       }
     ]
   },
+
+  server: {
+    port: 1024,
+    host: true
+  },
+
   plugins: [
     Components({
       dirs: ['.vitepress/vitepress/components'],
