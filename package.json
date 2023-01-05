@@ -30,6 +30,7 @@
     "@docsearch/react": "^3.1.0",
     "@iconify-json/ri": "^1.1.2",
     "@types/node": "^17.0.38",
+    "@types/nprogress": "0.2.0",
     "escape-html": "^1.0.3",
     "markdown-it": "^13.0.1",
     "markdown-it-container": "^3.0.0",
