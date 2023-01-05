@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import nprogress from 'nprogress'
-import VPNavbar from './vp-navbar.vue'
+import VPNav from './vp-nav.vue'
 import VPSidebar from './vp-sidebar.vue'
 import VPContent from './vp-content.vue'
 
@@ -39,7 +39,7 @@ onMounted(async () => {
 
 <template>
   <div class="App">
-    <VPNavbar />
+    <VPNav />
     <VPSidebar>
       <template #bottom>
         <slot name="sidebar-bottom" />

@@ -52,6 +52,18 @@
   }
 }
 
+.navbar {
+  top: 0;
+  left: 0;
+  position: relative;
+  z-index: var(--nav-z-index);
+
+  @include respond-to('lg') {
+    position: sticky;
+    width: 100%;
+  }
+}
+
 .menu + .appearance {
   margin-left: 8px;
 }

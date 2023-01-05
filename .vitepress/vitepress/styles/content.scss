@@ -6,6 +6,19 @@
 .page-content {
   @include respond-to('lg') {
     padding-top: var(--nav-height);
+
+    &.has-sidebar {
+      padding-left: calc(var(--sidebar-width-sm) + 10px);
+      @include respond-to('xlg') {
+        padding-left: calc(var(--vp-sidebar-width-small) - $scrollbar-size);
+      }
+      @include respond-to('xxl') {
+        padding-left: calc(
+          (100% - var(--vp-screen-max-width)) / 2 +
+            var(--vp-sidebar-width-small)
+        );
+      }
+    }
   }
 
   .doc-content a {
