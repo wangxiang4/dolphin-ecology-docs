@@ -1,18 +1,11 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import { inBrowser, useData } from 'vitepress'
+import { useData } from 'vitepress'
 
 import VPNavbarSearch from './navbar/vp-search.vue'
 import VPNavbarMenu from './navbar/vp-menu.vue'
 import VPNavbarThemeToggler from './navbar/vp-theme-toggler.vue'
 import VPNavbarSocialLinks from './navbar/vp-social-links.vue'
-import VPNavbarHamburger from './navbar/vp-hamburger.vue'
-
-defineProps<{
-  fullScreen: boolean
-}>()
-
-defineEmits(['toggle'])
 
 const { theme, page } = useData()
 
@@ -38,11 +31,6 @@ const currentLink = computed(() => {
         <VPNavbarMenu class="menu" />
         <VPNavbarThemeToggler class="theme-toggler" />
         <VPNavbarSocialLinks class="social-links" />
-        <VPNavbarHamburger
-          :active="fullScreen"
-          class="hamburger"
-          @click="$emit('toggle')"
-        />
       </div>
     </div>
   </div>

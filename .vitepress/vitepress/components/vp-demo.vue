@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, getCurrentInstance, toRef } from 'vue'
+import { computed, getCurrentInstance } from 'vue'
 import { useClipboard, useToggle } from '@vueuse/core'
 import { CaretTop } from '@element-plus/icons-vue'
 import { useData } from 'vitepress'

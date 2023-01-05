@@ -25,7 +25,7 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
 .home-page {
   .cards {
     margin: 110px auto;
-    max-width: 900px;
+    max-width: 1150px;
 
     .container {
       padding: 0;
@@ -43,8 +43,8 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
     }
 
     li {
-      width: 33.3%;
-      padding: 0 19px;
+      width: 25%;
+      padding: 10px 19px;
       box-sizing: border-box;
       float: left;
       list-style: none;

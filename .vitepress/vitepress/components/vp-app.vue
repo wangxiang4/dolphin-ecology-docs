@@ -1,24 +1,9 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import nprogress from 'nprogress'
-import { useToggle } from '@vueuse/core'
-import { useSidebar } from '../composables/sidebar'
-import { useToggleWidgets } from '../composables/toggle-widgets'
-import { breakpoints } from '../constant'
-import VPNav from './vp-nav.vue'
-import VPSubNav from './vp-subnav.vue'
+import VPNavbar from './vp-navbar.vue'
 import VPSidebar from './vp-sidebar.vue'
 import VPContent from './vp-content.vue'
-import VPOverlay from './vp-overlay.vue'
-
-const [isSidebarOpen, toggleSidebar] = useToggle(false)
-const { hasSidebar } = useSidebar()
-
-useToggleWidgets(isSidebarOpen, () => {
-  if (window.outerWidth >= breakpoints.lg) {
-    toggleSidebar(false)
-  }
-})
 
 onMounted(async () => {
   window.addEventListener(
@@ -54,29 +39,18 @@ onMounted(async () => {
 
 <template>
   <div class="App">
-    <VPOverlay class="overlay" :show="isSidebarOpen" @click="toggleSidebar(false)" />
-    <VPNav />
-    <VPSubNav v-if="hasSidebar" @open-menu="toggleSidebar(true)" />
-    <VPSidebar :open="isSidebarOpen" @close="toggleSidebar(false)">
+    <VPNavbar />
+    <VPSidebar>
       <template #bottom>
         <slot name="sidebar-bottom" />
       </template>
     </VPSidebar>
-    <VPContent :is-sidebar-open="isSidebarOpen">
+    <VPContent>
       <template #content-top>
         <slot name="content-top" />
       </template>
       <template #content-bottom>
         <slot name="content-bottom" />
-      </template>
-      <template #aside-top>
-        <slot name="aside-top" />
-      </template>
-      <template #aside-mid>
-        <slot name="aside-mid" />
-      </template>
-      <template #aside-bottom>
-        <slot name="aside-bottom" />
       </template>
     </VPContent>
     <Debug />

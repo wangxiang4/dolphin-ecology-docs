@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import { computed } from 'vue'
+import heroContentLocale from '../../i18n/component/hero-content.json'
+import { useData } from 'vitepress'
+const { lang } = useData()
+const locale = computed(() => heroContentLocale[lang.value])
+</script>
+
 <template>
   <div class="hero-content">
     <Content />
@@ -5,21 +13,15 @@
   <el-divider style="margin-bottom: 0" />
   <div class="text-center py-6 text-xs">
     <p class="mb-1">
-      Released under the
-      <a
-        href="https://opensource.org/licenses/MIT"
-        target="_blank"
-        rel="noopener noreferer"
-        >MIT License</a
-      >.
+      {{ locale['text1'] }}
     </p>
     <p class="mt-1">
-      Made with ❤️ by
+      {{ locale['text2'] }}
       <a
-        href="https://github.com/element-plus"
+        href="https://github.com/wangxiang4/dolphin-ecology-docs"
         target="_blank"
         rel="noopener noreferer"
-        >Element Plus</a
+        > Star </a
       >
     </p>
   </div>

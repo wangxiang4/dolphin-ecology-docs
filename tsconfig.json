@@ -21,7 +21,7 @@
     "lib": ["dom", "esnext"],
     "noImplicitAny": false,
     "skipLibCheck": true,
-    "types": ["@docsearch/js"],
+    "types": ["@docsearch/js", "node"],
     "typeRoots": ["./node_modules/@types/"],
     "paths": {
       "~/*": ["./.vitepress/vitepress/*"]
