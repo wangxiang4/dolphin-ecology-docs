@@ -57,8 +57,8 @@ const peopleLayer = computed(() => ({
   ...layerBase,
   width: '30%',
   height: '30%',
-  right: 0,
-  bottom: 0,
+  right: 10,
+  bottom: 43,
   transform: `translateX(${parallax.tilt * 25 + 25}px) translateY(${
     parallax.roll * 25
   }px) scale(1)`,
@@ -78,8 +78,8 @@ const leftBottomLayer = computed(() => ({
   ...layerBase,
   width: '30%',
   height: '30%',
-  left: 0,
-  bottom: 0,
+  left: -20,
+  bottom: 30,
   transform: `translateX(${parallax.tilt * 30 - 10}px) translateY(${
     parallax.roll * 30
   }px)`,
@@ -123,7 +123,7 @@ useEventListener(window, 'scroll', handleScroll)
       <div class="parallax-container" :style="containerStyle">
         <div :style="cardStyle">
           <screen-svg :style="screenLayer" alt="banner" />
-          <people-svg
+          <right-bottom-layer-svg
             :style="peopleLayer"
             alt="banner"
             class="cursor-pointer"
