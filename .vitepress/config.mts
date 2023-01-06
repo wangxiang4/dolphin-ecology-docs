@@ -11,7 +11,7 @@ export default {
       'link',
       {
         rel: 'icon',
-        href: '/images/element-plus-logo-small.svg',
+        href: '/images/dolphin-platform-logo-small.svg',
         type: 'image/svg+xm',
       }
     ],

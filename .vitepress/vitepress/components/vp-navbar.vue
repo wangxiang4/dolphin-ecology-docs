@@ -21,8 +21,8 @@ const currentLink = computed(() => {
         <a :href="currentLink">
           <img
             class="logo"
-            src="/images/element-plus-logo.svg"
-            alt="Element Plus Logo"
+            src="/images/dolphin-platform-logo.svg"
+            alt="Dolphin Platform Logo"
           />
         </a>
       </div>
@@ -42,8 +42,8 @@ const currentLink = computed(() => {
   align-items: center;
   height: var(--header-height);
   > a {
-    height: 28px;
-    width: 128px;
+    height: 30px;
+    width: 250px;
   }
   .logo {
     position: relative;
