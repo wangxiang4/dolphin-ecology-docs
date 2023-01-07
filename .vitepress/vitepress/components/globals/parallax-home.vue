@@ -54,14 +54,25 @@ const screenLayer = computed(() => ({
   }px)`,
 }))
 
-const peopleLayer = computed(() => ({
+const rightBottomLayer = computed(() => ({
   ...layerBase,
   width: '30%',
   height: '30%',
   right: 10,
-  bottom: 43,
+  bottom: 48,
   transform: `translateX(${parallax.tilt * 25 + 25}px) translateY(${
     parallax.roll * 25
+  }px) scale(1)`,
+}))
+
+const rightBottomRapidsLayer = computed(() => ({
+  ...layerBase,
+  width: '30%',
+  height: '30%',
+  right: 10,
+  bottom: 42,
+  transform: `translateX(${parallax.tilt * 25 + 25}px) translateY(${
+      parallax.roll * 25
   }px) scale(1)`,
 }))
 
@@ -124,11 +135,17 @@ useEventListener(window, 'scroll', handleScroll)
       <div class="parallax-container" :style="containerStyle">
         <div :style="cardStyle">
           <screen-svg :style="screenLayer" alt="banner" />
-          <right-bottom-layer-svg
-            :style="peopleLayer"
-            alt="banner"
-            class="cursor-pointer"
-            @click="jumpTo('/microservice/positioning.html')"
+          <right-bottom-layer-rapids-svg v-show="isDark"
+                                         :style="rightBottomRapidsLayer"
+                                         alt="banner"
+                                         class="cursor-pointer"
+                                         @click="jumpTo('/microservice/positioning.html')"
+          />
+          <right-bottom-layer-svg v-show="!isDark"
+                                  :style="rightBottomLayer"
+                                  alt="banner"
+                                  class="cursor-pointer"
+                                  @click="jumpTo('/microservice/positioning.html')"
           />
           <left-layer-svg :style="leftLayer" alt="banner" />
           <left-bottom-layer-svg :style="leftBottomLayer" alt="banner" />

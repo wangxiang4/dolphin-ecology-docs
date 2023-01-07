@@ -38,6 +38,7 @@ declare module '@vue/runtime-core' {
     Playground: typeof import('./.vitepress/vitepress/components/icons/playground.vue')['default']
     Resource: typeof import('./.vitepress/vitepress/components/globals/resource.vue')['default']
     ResourceSvg: typeof import('./.vitepress/vitepress/components/home/svg/resource-svg.vue')['default']
+    RightBottomLayerRapidsSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-rapids-svg.vue')['default']
     RightBottomLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-svg.vue')['default']
     RightLayerMoonSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-moon-svg.vue')['default']
     RightLayerSunSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-sun-svg.vue')['default']
