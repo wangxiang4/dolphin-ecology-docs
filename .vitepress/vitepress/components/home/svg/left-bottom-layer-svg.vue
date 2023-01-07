@@ -6,19 +6,58 @@
        fill="none"
        xmlns="http://www.w3.org/2000/svg"
   >
+    <defs>
+      <linearGradient id="svg_dolphin_1"
+                      gradientUnits="userSpaceOnUse"
+                      x1="107.8648"
+                      y1="121.7747"
+                      x2="330.816"
+                      y2="121.7747"
+      >
+        <stop  offset="0" style="stop-color: var(--svg-dolphin-1-c-0)"/>
+        <stop  offset="0.0029" style="stop-color: var(--svg-dolphin-1-c-1)"/>
+        <stop  offset="0.0078" style="stop-color: var(--svg-dolphin-1-c-2)"/>
+        <stop  offset="1" style="stop-color: var(--svg-dolphin-1-c-3)"/>
+      </linearGradient>
+      <linearGradient id="svg_dolphin_2"
+                      gradientUnits="userSpaceOnUse"
+                      x1="3.7044"
+                      y1="51.1049"
+                      x2="210.7645"
+                      y2="51.1049"
+      >
+        <stop  offset="0" style="stop-color: var(--svg-dolphin-2-c-0)"/>
+        <stop  offset="0.2871" style="stop-color: var(--svg-dolphin-2-c-1)"/>
+        <stop  offset="0.7769" style="stop-color: var(--svg-dolphin-2-c-2)"/>
+        <stop  offset="1" style="stop-color: var(--svg-dolphin-2-c-3)"/>
+      </linearGradient>
+      <linearGradient id="svg_dolphin_eye_1"
+                      gradientUnits="userSpaceOnUse"
+                      x1="287.7975"
+                      y1="105.1388"
+                      x2="292.6444"
+                      y2="105.1388"
+      >
+        <stop  offset="0" style="stop-color: var(--svg-dolphin-2-c-0)"/>
+        <stop  offset="0.2871" style="stop-color: var(--svg-dolphin-2-c-1)"/>
+        <stop  offset="0.7769" style="stop-color: var(--svg-dolphin-2-c-2)"/>
+        <stop  offset="1" style="stop-color: var(--svg-dolphin-2-c-3)"/>
+      </linearGradient>
+      <linearGradient id="svg_dolphin_eye_2"
+                      gradientUnits="userSpaceOnUse"
+                      x1="177.698"
+                      y1="51.9451"
+                      x2="182.5886"
+                      y2="51.9451"
+      >
+        <stop  offset="0" style="stop-color: var(--svg-dolphin-1-c-0)"/>
+        <stop  offset="0.0029" style="stop-color: var(--svg-dolphin-1-c-1)"/>
+        <stop  offset="0.0078" style="stop-color: var(--svg-dolphin-1-c-2)"/>
+        <stop  offset="1" style="stop-color: var(--svg-dolphin-1-c-3)"/>
+      </linearGradient>
+    </defs>
+
     <!--dolphin1-->
-    <linearGradient id="svg_dolphin_1"
-                    gradientUnits="userSpaceOnUse"
-                    x1="107.8648"
-                    y1="121.7747"
-                    x2="330.816"
-                    y2="121.7747"
-    >
-      <stop  offset="0" style="stop-color: var(--svg-dolphin-1-c-0)"/>
-      <stop  offset="0.0029" style="stop-color: var(--svg-dolphin-1-c-1)"/>
-      <stop  offset="0.0078" style="stop-color: var(--svg-dolphin-1-c-2)"/>
-      <stop  offset="1" style="stop-color: var(--svg-dolphin-1-c-3)"/>
-    </linearGradient>
     <path style="fill:url(#svg_dolphin_1);" d="M237.891,146.216c-10.571,10.432-35.548,1.733-43.149,0.525
     c-7.314-1.163-15.919-3.04-20.446-3.46c-5.329-0.494-10.441-0.865-15.226-3.275c-3.962-1.995-13.051-7.601-17.183-11.061
     c-4.133-3.46-5.438-5.191-6.743-6.674c-1.305-1.483-2.393-0.494-5.873-3.46c-3.48-2.966-16.313-6.983-19.358-8.342
@@ -46,18 +85,6 @@
     C330.199,112.844,330.129,112.547,329.253,112.693z"/>
 
     <!--dolphin2-->
-    <linearGradient id="svg_dolphin_2"
-                    gradientUnits="userSpaceOnUse"
-                    x1="3.7044"
-                    y1="51.1049"
-                    x2="210.7645"
-                    y2="51.1049"
-    >
-      <stop  offset="0" style="stop-color: var(--svg-dolphin-2-c-0)"/>
-      <stop  offset="0.2871" style="stop-color: var(--svg-dolphin-2-c-1)"/>
-      <stop  offset="0.7769" style="stop-color: var(--svg-dolphin-2-c-2)"/>
-      <stop  offset="1" style="stop-color: var(--svg-dolphin-2-c-3)"/>
-    </linearGradient>
     <path style="fill:url(#svg_dolphin_2);" d="M5.418,72.094
     c4.106,1.653,9.371,3.76,12.181,4.202c3.834,0.603,7.178,0.494,10.658,0.247c0-1.73,0.435-1.73,1.305-3.213
     c0.87-1.483,1.087-1.483,1.74-2.966c0.653-1.483,1.522-0.989,1.958,0c0.435,0.989,0.877,2.711,0.958,3.36
@@ -87,36 +114,12 @@
     c-1.223-0.602-2.327-0.017-3.059,0.417C183.219,56.553,183.532,57.248,184.103,57.016z"/>
 
     <!--dolphin-eye1-->
-    <linearGradient id="svg_dolphin_eye_1"
-                    gradientUnits="userSpaceOnUse"
-                    x1="287.7975"
-                    y1="105.1388"
-                    x2="292.6444"
-                    y2="105.1388"
-    >
-      <stop  offset="0" style="stop-color: var(--svg-dolphin-2-c-0)"/>
-      <stop  offset="0.2871" style="stop-color: var(--svg-dolphin-2-c-1)"/>
-      <stop  offset="0.7769" style="stop-color: var(--svg-dolphin-2-c-2)"/>
-      <stop  offset="1" style="stop-color: var(--svg-dolphin-2-c-3)"/>
-    </linearGradient>
     <path style="fill:url(#svg_dolphin_eye_1);" d="M289.006,106.468
 	  c0.353,0.062,0.653,0.294,1.183,0.386c0.53,0.093,1.577-0.062,2.066-0.432c0.489-0.371,0.41-0.935,0.326-1.344
 	  c-0.095-0.463-0.476-1.004-1.115-1.112c-0.567-0.096-1.495,0.031-2.393,0.834c0.408-0.726,1.02-1.02,1.835-1.344
 	  c-0.938-0.232-1.754,0.278-2.202,0.742c-0.662,0.684-0.979,1.622-0.897,2.364C288.204,106.375,288.601,106.397,289.006,106.468z"/>
 
     <!--dolphin-eye2-->
-    <linearGradient id="svg_dolphin_eye_2"
-                    gradientUnits="userSpaceOnUse"
-                    x1="177.698"
-                    y1="51.9451"
-                    x2="182.5886"
-                    y2="51.9451"
-    >
-      <stop  offset="0" style="stop-color: var(--svg-dolphin-1-c-0)"/>
-      <stop  offset="0.0029" style="stop-color: var(--svg-dolphin-1-c-1)"/>
-      <stop  offset="0.0078" style="stop-color: var(--svg-dolphin-1-c-2)"/>
-      <stop  offset="1" style="stop-color: var(--svg-dolphin-1-c-3)"/>
-    </linearGradient>
     <path style="fill:url(#svg_dolphin_eye_2);" d="M178.898,51.015
 	  c0.434-0.319,1.603-0.607,2.283-0.165c0.68,0.441,0.68,1.435,0.049,1.711c-0.097-0.662-1.344-1.325-1.975-0.405
 	  c-0.428,0.623-0.34,1.453,0.453,1.858c0.701,0.357,1.813-0.184,2.347-0.681c0.534-0.497,0.602-1.219,0.486-1.766
