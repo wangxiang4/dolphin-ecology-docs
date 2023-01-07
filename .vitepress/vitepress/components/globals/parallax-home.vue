@@ -2,6 +2,7 @@
 import { computed, reactive, ref } from 'vue'
 import { useEventListener, useParallax, useThrottleFn } from '@vueuse/core'
 import { useData } from 'vitepress'
+import { isDark } from '~/composables/dark'
 import HomeCards from '../home/home-cards.vue'
 import type { CSSProperties } from 'vue'
 import homeLocale from '../../../i18n/pages/home.json'
@@ -90,7 +91,7 @@ const rightLayer = computed(() => ({
   width: '33%',
   height: '33%',
   top: 0,
-  right: 0,
+  right: -10,
   transform: `translateX(${parallax.tilt * 25 + 5}px) translateY(${
     parallax.roll * 25
   }px)`,
@@ -131,7 +132,8 @@ useEventListener(window, 'scroll', handleScroll)
           />
           <left-layer-svg :style="leftLayer" alt="banner" />
           <left-bottom-layer-svg :style="leftBottomLayer" alt="banner" />
-          <right-layer-svg :style="rightLayer" alt="banner" />
+          <right-layer-moon-svg v-show="isDark" :style="rightLayer" alt="banner" />
+          <right-layer-sun-svg v-show="!isDark" :style="rightLayer" alt="banner" />
         </div>
       </div>
     </div>

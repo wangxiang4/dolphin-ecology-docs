@@ -39,6 +39,8 @@ declare module '@vue/runtime-core' {
     Resource: typeof import('./.vitepress/vitepress/components/globals/resource.vue')['default']
     ResourceSvg: typeof import('./.vitepress/vitepress/components/home/svg/resource-svg.vue')['default']
     RightBottomLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-svg.vue')['default']
+    RightLayerMoonSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-moon-svg.vue')['default']
+    RightLayerSunSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-sun-svg.vue')['default']
     RightLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-svg.vue')['default']
     ScreenSvg: typeof import('./.vitepress/vitepress/components/home/svg/screen-svg.vue')['default']
     SecondaryColors: typeof import('./.vitepress/vitepress/components/globals/secondary-colors.vue')['default']
