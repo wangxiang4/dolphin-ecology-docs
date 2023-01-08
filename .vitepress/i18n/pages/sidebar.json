@@ -4,25 +4,29 @@
       "text": "微服务",
       "link": "/microservice/positioning",
       "activeMatch": "/microservice/",
-      "homeCardType": "microservice"
+      "homeCardType": "microservice",
+      "description": ""
     },
     {
       "text": "VUE3",
       "link": "/vue3/positioning",
       "activeMatch": "/vue3/",
-      "homeCardType": "vue3"
+      "homeCardType": "vue3",
+      "description": ""
     },
     {
       "text": "IOS",
       "link": "/ios/positioning",
       "activeMatch": "/ios/",
-      "homeCardType": "ios"
+      "homeCardType": "ios",
+      "description": ""
     },
     {
       "text": "安卓",
       "link": "/android/index",
       "activeMatch": "/android/",
-      "homeCardType": "android"
+      "homeCardType": "android",
+      "description": ""
     }
   ]
 }
