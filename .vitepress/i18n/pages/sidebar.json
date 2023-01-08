@@ -3,22 +3,26 @@
     {
       "text": "微服务",
       "link": "/microservice/positioning",
-      "activeMatch": "/microservice/"
+      "activeMatch": "/microservice/",
+      "homeCardType": "microservice"
     },
     {
       "text": "VUE3",
       "link": "/vue3/positioning",
-      "activeMatch": "/vue3/"
+      "activeMatch": "/vue3/",
+      "homeCardType": "vue3"
     },
     {
       "text": "IOS",
       "link": "/ios/positioning",
-      "activeMatch": "/ios/"
+      "activeMatch": "/ios/",
+      "homeCardType": "ios"
     },
     {
       "text": "安卓",
       "link": "/android/index",
-      "activeMatch": "/android/"
+      "activeMatch": "/android/",
+      "homeCardType": "android"
     }
   ]
 }
