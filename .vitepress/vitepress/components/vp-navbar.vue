@@ -6,8 +6,15 @@ import VPNavbarSearch from './navbar/vp-search.vue'
 import VPNavbarMenu from './navbar/vp-menu.vue'
 import VPNavbarThemeToggler from './navbar/vp-theme-toggler.vue'
 import VPNavbarSocialLinks from './navbar/vp-social-links.vue'
+import VPNavbarHamburger from './navbar/vp-hamburger.vue'
 
-const { theme, page } = useData()
+const { theme } = useData()
+
+defineProps<{
+  fullScreen: boolean
+}>()
+
+defineEmits(['toggle'])
 
 const currentLink = computed(() => {
   return '/'
@@ -27,10 +34,15 @@ const currentLink = computed(() => {
         </a>
       </div>
       <div class="content">
-        <VPNavbarSearch class="search" :options="theme.agolia" multilang />
+        <VPNavbarSearch class="search" :options="theme.agolia" />
         <VPNavbarMenu class="menu" />
         <VPNavbarThemeToggler class="theme-toggler" />
         <VPNavbarSocialLinks class="social-links" />
+        <VPNavbarHamburger
+            :active="fullScreen"
+            class="hamburger"
+            @click="$emit('toggle')"
+        />
       </div>
     </div>
   </div>
