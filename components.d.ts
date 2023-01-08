@@ -5,6 +5,7 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    AndroidSvg: typeof import('./.vitepress/vitepress/components/home/svg/android-svg.vue')['default']
     AxureComponentsSvg: typeof import('./.vitepress/vitepress/components/globals/resources/axure-components-svg.vue')['default']
     BackToTop: typeof import('./.vitepress/vitepress/components/icons/back-to-top.vue')['default']
     Codepen: typeof import('./.vitepress/vitepress/components/icons/codepen.vue')['default']
@@ -22,6 +23,7 @@ declare module '@vue/runtime-core' {
     GuideSvg: typeof import('./.vitepress/vitepress/components/home/svg/guide-svg.vue')['default']
     HomeCards: typeof import('./.vitepress/vitepress/components/home/home-cards.vue')['default']
     Icons: typeof import('./.vitepress/vitepress/components/globals/icons.vue')['default']
+    IosSvg: typeof import('./.vitepress/vitepress/components/home/svg/ios-svg.vue')['default']
     IRiCodeLine: typeof import('~icons/ri/code-line')['default']
     IRiExternalLinkLine: typeof import('~icons/ri/external-link-line')['default']
     IRiFileCopyLine: typeof import('~icons/ri/file-copy-line')['default']
@@ -32,12 +34,13 @@ declare module '@vue/runtime-core' {
     LeftLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/left-layer-svg.vue')['default']
     Light: typeof import('./.vitepress/vitepress/components/icons/light.vue')['default']
     MainColor: typeof import('./.vitepress/vitepress/components/globals/main-color.vue')['default']
+    MicroServiceSvg: typeof import('./.vitepress/vitepress/components/home/svg/micro-service-svg.vue')['default']
     NeutralColor: typeof import('./.vitepress/vitepress/components/globals/neutral-color.vue')['default']
     ParallaxHome: typeof import('./.vitepress/vitepress/components/globals/parallax-home.vue')['default']
     PeopleSvg: typeof import('./.vitepress/vitepress/components/home/svg/people-svg.vue')['default']
     Playground: typeof import('./.vitepress/vitepress/components/icons/playground.vue')['default']
     Resource: typeof import('./.vitepress/vitepress/components/globals/resource.vue')['default']
-    ResourceSvg: typeof import('./.vitepress/vitepress/components/home/svg/resource-svg.vue')['default']
+    ResourceSvg: typeof import('~/components/home/svg/micro-service-svg.vue')['default']
     RightBottomLayerRapidsSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-rapids-svg.vue')['default']
     RightBottomLayerSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-bottom-layer-svg.vue')['default']
     RightLayerMoonSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-moon-svg.vue')['default']
@@ -77,6 +80,7 @@ declare module '@vue/runtime-core' {
     VpSwitch: typeof import('./.vitepress/vitepress/components/common/vp-switch.vue')['default']
     VpTableOfContent: typeof import('./.vitepress/vitepress/components/doc-content/vp-table-of-content.vue')['default']
     VpThemeToggler: typeof import('./.vitepress/vitepress/components/navbar/vp-theme-toggler.vue')['default']
+    Vue3Svg: typeof import('./.vitepress/vitepress/components/home/svg/vue3-svg.vue')['default']
   }
 }
 

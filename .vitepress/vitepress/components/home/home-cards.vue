@@ -11,7 +11,14 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
     <ul class="container">
       <li v-for="item in navs" :key="item.link">
         <div class="card">
-          <resource-svg w="40" m="y-12" />
+
+          <android-svg w="40" m="y-12" />
+
+          <android-svg w="40" m="y-12" />
+          <android-svg w="40" m="y-12" />
+
+          <android-svg w="40" m="y-12" />
+
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
           <a href="/guide/design.html">{{ homeLang['2'] }}</a>
