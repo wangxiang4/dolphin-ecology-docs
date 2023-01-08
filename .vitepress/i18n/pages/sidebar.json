@@ -12,14 +12,14 @@
       "link": "/vue3/positioning",
       "activeMatch": "/vue3/",
       "homeCardType": "vue3",
-      "description": "一个基于Vue3、Vite、Ant-Design-Vue、TypeScript、vxe-table、Tinymce、 Pinia等前沿技术开发的前端管理系统。"
+      "description": "一个基于Vue3、Vite、Ant-Design-Vue、TypeScript、vxe-table、Tinymce、 Pinia、WindiCss等前沿技术开发的前端管理系统，内置多种主题与大量封装组件、多租户切换、锁屏、内置两种CRUD编写方式实例(ant-design-vue纯原生组件编写,编写配置对象动态生成) 。"
     },
     {
       "text": "IOS",
       "link": "/ios/positioning",
       "activeMatch": "/ios/",
       "homeCardType": "ios",
-      "description": "一个基于CocoaPods、 RxSwift、Moya、Swinject、RxTheme、Kingfisher、FLEX等前沿技术开发的MVVM架构IOS客户端，采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行)。"
+      "description": "一个基于CocoaPods、 RxSwift、Moya、Swinject、RxTheme、Kingfisher、FLEX等前沿技术开发的MVVM架构IOS客户端，一套代码多个平台运行，采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行)。"
 
     },
     {
