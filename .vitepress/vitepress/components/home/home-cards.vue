@@ -60,7 +60,7 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
   }
 
   .card {
-    height: 430px;
+    height: 480px;
     width: 100%;
     background: var(--bg-color);
     border: 1px solid var(--border-color);
