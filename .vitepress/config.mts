@@ -6,6 +6,7 @@ import { nav } from './config/nav'
 export default {
   title: '海豚生态计划-海豚开发平台生态圈',
   description: '完全开源,面向开发者的海豚微服务开发平台',
+  outDir: './dist',
   head: [
     [
       'link',
