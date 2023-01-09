@@ -17,7 +17,7 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
           <android-svg v-if="item.homeCardType == 'android' " w="40" m="y-12" />
           <h3>{{ item.text }}</h3>
           <p>{{ item.description }}</p>
-          <a href="/guide/design.html">{{ homeLang['2'] }}</a>
+          <a :href="item.link">{{ homeLang['2'] }}</a>
         </div>
       </li>
     </ul>

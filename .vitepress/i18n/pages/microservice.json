@@ -1,11 +1,11 @@
 {
   "zh-CN": {
     "overview": {
-      "text": "项目介绍",
+      "text": "快速入门",
       "children": [
         {
-          "text": "目标定位",
-          "link": "microservice/positioning"
+          "text": "简介",
+          "link": "microservice/description"
         }
       ]
     }

@@ -2,21 +2,21 @@
   "zh-CN": [
     {
       "text": "微服务",
-      "link": "/microservice/positioning",
+      "link": "/microservice/description",
       "activeMatch": "/microservice/",
       "homeCardType": "microservice",
       "description": "一个基于Spring Boot 3、 Spring Cloud 2021 & Alibaba、 SAS OAuth2、Docker、RocketMQ、XXLJob等前沿技术搭建的微服务SASS多租户RBAC权限后端管理系统。"
     },
     {
       "text": "VUE3",
-      "link": "/vue3/positioning",
+      "link": "/vue3/description",
       "activeMatch": "/vue3/",
       "homeCardType": "vue3",
       "description": "一个基于Vue3、Vite、Ant-Design-Vue、TypeScript、vxe-table、Tinymce、 Pinia、WindiCss等前沿技术搭建的前端管理系统，内置多种主题与大量封装组件、多租户切换、锁屏、内置两种CRUD编写方式实例(ant-design-vue纯原生组件编写,编写配置对象动态生成) 。"
     },
     {
       "text": "IOS",
-      "link": "/ios/positioning",
+      "link": "/ios/description",
       "activeMatch": "/ios/",
       "homeCardType": "ios",
       "description": "一个基于CocoaPods、 RxSwift、Moya、Swinject、RxTheme、Kingfisher、FLEX等前沿技术搭建的MVVM架构IOS客户端，一套代码多个平台运行，采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行)。"
@@ -24,7 +24,7 @@
     },
     {
       "text": "安卓",
-      "link": "/android/index",
+      "link": "/android/description",
       "activeMatch": "/android/",
       "homeCardType": "android",
       "description": "一个基于AndroidX、RxAndroid、Retrofit、Glide、AndroidUtilCode、Dagger2、Calligraphy3、Lombok、友盟、MMKV等前沿技术搭建的MVVM架构Android客户端，可进行QQ登录，微信登录。"
