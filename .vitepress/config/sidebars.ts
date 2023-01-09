@@ -8,7 +8,7 @@ function getMicroserviceSidebar() {
   return Object.fromEntries(
     Object.entries(microserviceLocale).map(([lang, val]) => [
       lang,
-      Object.values(val).map((item) => mapPrefix(item, lang)),
+      Object.values(val).map((item) => mapPrefix(item, lang, "/microservice")),
     ])
   )
 }

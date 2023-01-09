@@ -1,11 +1,11 @@
 {
   "zh-CN": {
-    "overview": {
+    "quick": {
       "text": "快速入门",
       "children": [
         {
           "text": "简介",
-          "link": "microservice/description"
+          "link": "/description"
         }
       ]
     }
