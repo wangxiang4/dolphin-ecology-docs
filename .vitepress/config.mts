@@ -4,10 +4,9 @@ import { sidebars } from './config/sidebars'
 import { nav } from './config/nav'
 
 export default {
-  base: "/dolphin-ecology-docs/",
+  base: "/",
   title: '海豚生态计划-海豚开发平台生态圈',
-  description: '完全开源,面向开发者的海豚微服务开发平台',
-  outDir: './docs',
+  description: '完全免费开源,包括高级功能,打造一个web端,安卓端,ios端的一个海豚架构平台生态圈',
   head: [
     [
       'link',

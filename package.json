@@ -1,7 +1,7 @@
 {
   "name": "dolphin-ecology-docs",
   "version": "1.0.0",
-  "description": "海豚生态计划-微服务开发平台-文档",
+  "description": "完全免费开源,包括高级功能,打造一个web端,安卓端,ios端的一个海豚架构平台生态圈",
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "NODE_ENV=production && vitepress build",
