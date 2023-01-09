@@ -4,8 +4,8 @@
   "description": "海豚生态计划-微服务开发平台-文档",
   "scripts": {
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:serve": "vitepress serve"
+    "docs:build": "NODE_ENV=production && vitepress build",
+    "docs:serve": "NODE_ENV=production vitepress serve . --port 5001"
   },
   "keywords": [
     "dolphin",
