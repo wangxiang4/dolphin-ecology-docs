@@ -1,9 +1,6 @@
 name: Deploy Docs
 
-on:
-  schedule:
-    # GMT+8 00:00
-    - cron: '0 16 * * *'
+on: workflow_dispatch
 
 # https://docs.github.com/zh/enterprise-cloud@latest/actions/using-jobs/using-concurrency
 concurrency:
