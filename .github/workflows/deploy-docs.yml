@@ -58,7 +58,7 @@ jobs:
         with:
           token: ${{ secrets.ACTION_GITHUB_TOKEN }}
           branch: docs
-          folder: .vitepress/dist
+          folder: docs/.vitepress/dist
           git-config-name: wangxiang4
           git-config-email: 1827945911@qq.com
           commit-message: website deploy github pages
@@ -69,7 +69,7 @@ jobs:
         with:
           token: ${{ secrets.ACTION_GITHUB_TOKEN }}vercel-publish
           branch: main
-          folder: .vitepress/dist
+          folder: docs/.vitepress/dist
           repository-name: wangxiang4/vercel-publish
           git-config-name: wangxiang4
           git-config-email: 1827945911@qq.com

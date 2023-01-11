@@ -164,7 +164,7 @@ useEventListener(window, 'scroll', handleScroll)
 </template>
 
 <style lang="scss">
-@use '.vitepress/vitepress/styles/mixins' as *;
+@use 'docs/.vitepress/vitepress/styles/mixins' as *;
 
 .home-page {
   .mobile-banner {

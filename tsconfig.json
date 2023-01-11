@@ -19,6 +19,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "allowJs": true,
+    "jsx": "preserve",
     "lib": ["dom", "esnext"],
     "noImplicitThis" : false,
     "noImplicitAny": false,
@@ -27,10 +28,14 @@
     "typeRoots": ["./node_modules/@types/"],
     "removeComments": true,
     "paths": {
-      "~/*": ["./.vitepress/vitepress/*"]
+      "~/*": ["./docs/.vitepress/vitepress/*"]
     },
-    "jsx": "preserve"
   },
-  "include": ["**/*", ".vitepress/**/*"],
-  "exclude": ["node_modules", "dist", "**/*.js"]
+  "include": [
+    "docs/**/*.ts",
+    "docs/**/*.d.ts",
+    "docs/**/*.tsx",
+    "docs/**/*.vue",
+  ],
+  "exclude": ["node_modules", "**/dist", "**/*.js"]
 }

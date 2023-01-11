@@ -4,9 +4,9 @@
   "packageManager": "pnpm@7.3.0",
   "description": "完全免费开源,包括高级功能,打造一个web端,安卓端,ios端的一个海豚架构平台生态圈",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "NODE_ENV=production && vitepress build",
-    "docs:serve": "NODE_ENV=production vitepress serve . --port 5001"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "NODE_ENV=production && vitepress build docs",
+    "docs:serve": "NODE_ENV=production vitepress serve docs --port 5001"
   },
   "keywords": [
     "dolphin",
