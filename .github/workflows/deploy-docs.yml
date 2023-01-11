@@ -1,0 +1,85 @@
+name: Deploy Docs
+
+on:
+  schedule:
+    # GMT+8 00:00
+    - cron: '0 16 * * *'
+
+# https://docs.github.com/zh/enterprise-cloud@latest/actions/using-jobs/using-concurrency
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.sha }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    if: ${{ github.repository_owner == 'wangxiang4' }}
+
+    steps:
+      # https://github.com/actions/checkout
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # https://github.com/pnpm/action-setup
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+
+      # https://github.com/actions/setup-node
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "pnpm_cache_dir=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      # https://github.com/actions/cache
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        with:
+          # https://docs.github.com/zh/enterprise-server@3.7/actions/using-workflows/caching-dependencies-to-speed-up-workflows
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Build website
+        run: pnpm docs:build
+        env:
+          DOC_ENV: production
+          NODE_OPTIONS: --max-old-space-size=4096
+
+      # https://github.com/JamesIves/github-pages-deploy-action
+      - name: Deploy to Github Pages
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          token: ${{ secrets.ACTION_GITHUB_TOKEN }}
+          branch: docs
+          folder: .vitepress/dist
+          git-config-name: wangxiang4
+          git-config-email: 1827945911@qq.com
+          commit-message: website deploy github pages
+
+      # https://github.com/JamesIves/github-pages-deploy-action
+      - name: Deploy to Vercel
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          token: ${{ secrets.ACTION_GITHUB_TOKEN }}vercel-publish
+          branch: main
+          folder: .vitepress/dist
+          repository-name: wangxiang4/vercel-publish
+          git-config-name: wangxiang4
+          git-config-email: 1827945911@qq.com
+
+      # Sync Third Party Triggering Deploy Hook
+      # https://vercel.com/docs/concepts/git/deploy-hooks
+      - name: Sync
+        env:
+          TRIGGERSYNCURL: ${{ secrets.TRIGGERSYNCURL }}
+        run: curl -k "$TRIGGERSYNCURL"
