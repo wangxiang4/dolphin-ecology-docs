@@ -67,7 +67,7 @@ jobs:
       - name: Deploy to Vercel
         uses: JamesIves/github-pages-deploy-action@v4.3.4
         with:
-          token: ${{ secrets.ACTION_GITHUB_TOKEN }}vercel-publish
+          token: ${{ secrets.ACTION_GITHUB_TOKEN }}
           branch: main
           folder: docs/.vitepress/dist
           repository-name: wangxiang4/vercel-publish
