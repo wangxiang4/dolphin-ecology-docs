@@ -1,6 +1,7 @@
 {
   "name": "dolphin-ecology-docs",
   "version": "1.0.0",
+  "packageManager": "pnpm@7.3.0",
   "description": "完全免费开源,包括高级功能,打造一个web端,安卓端,ios端的一个海豚架构平台生态圈",
   "scripts": {
     "docs:dev": "vitepress dev",
@@ -42,5 +43,8 @@
     "unplugin-vue-components": "^0.20.1",
     "vite": "^2.9.15",
     "vitepress": "0.22.4"
+  },
+  "engines": {
+    "node": ">= 16"
   }
 }
