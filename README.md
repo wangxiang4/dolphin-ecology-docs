@@ -18,6 +18,14 @@
   </a>
 </p>
 
-## 海豚生态计划-文档
+## 🐬 开始
+海豚生态计划-打造一个web端,安卓端,ios端的一个海豚开发平台生态圈,并且完全免费开源,长期维护
 
-完全免费开源,打造一个web端,安卓端,ios端的一个海豚开发平台生态圈
+## 🐶 我想成为开发团队的一员！
+欢迎🤗！我们正在寻找有才华的开发者加入我们，让海豚开发平台变得更好！如果您想加入开发团队，请联系我们，非常欢迎您加入我们！❤️
+
+## 🎃 一起讨论
+加入我们的 [Discord](https://discord.gg/DREuQWrRYQ) 开始与大家交流。
+
+## 🦀 执照
+[Dolphin Development Platform 是获得MIT许可](https://github.com/wangxiang4/dolphin-ecology-docs/blob/master/LICENSE) 的开源软件 。
