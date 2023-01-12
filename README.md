@@ -42,7 +42,7 @@
 - 📱 移动端全采用最新的MVVM模式编写，抽离了视图、模型层，内部采用RX进行数据绑定，明确层级职责.
 - 🍎 苹果端采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行).
 
-## <img src="https://godolphinx.org/images/hacktoberfest-logo.svg"> 黑客节
+## <img width="28" style="vertical-align:middle" src="https://godolphinx.org/images/hacktoberfest-logo.svg"> 黑客节
 加入[Github HackToberFest](https://hacktoberfest.com/) 开始为此项目做出贡献.
 
 ## 🤔 一起讨论
