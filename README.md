@@ -45,11 +45,7 @@
 ## <img width="28" style="vertical-align:middle" src="https://godolphinx.org/images/hacktoberfest-logo.svg"> 黑客节
 加入[Github HackToberFest](https://hacktoberfest.com/) 开始为此项目做出贡献.
 
-## 🧑‍💻开发手册
-- [安装](#📦安装)
-- [开发目录](🔨开发目录)
-
-### 📦安装
+## 📦 安装
 
 ```
 pnpm i --frozen-lockfile
@@ -59,7 +55,7 @@ pnpm i --frozen-lockfile
 pnpm docs:dev
 ```
 
-### 🔨开发目录
+## 🔨开发目录
 
 ```
 ├─dolphin-ecology-docs -- 海豚生态开发文档平台
