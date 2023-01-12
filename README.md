@@ -33,14 +33,14 @@
 让人人都可以快速高效的开发软件
 
 ## ✨ 特性
-- 🍎 苹果端采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行).
-- 📱 移动端全采用最新的MVVM模式编写，抽离了视图、模型层，内部采用RX进行数据绑定，明确层级职责.
 - 🌈 后端采用最新微服务编写，具有容器技术的面向服务架构.
 - 📦 一套开箱即用的高质量快速开发软件的平台.
 - 🛡 前端用TypeScript编写，具有可预测的静态类型.
 - ⚙️ 一整套开发平台(包含Web，Ios，Android).
 - 🌍 语言的国际化支持.
 - 🎨 强大的主题定制在每一个细节.
+- 📱 移动端全采用最新的MVVM模式编写，抽离了视图、模型层，内部采用RX进行数据绑定，明确层级职责.
+- 🍎 苹果端采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行).
 
 ## <img src="https://godolphinx.org/images/hacktoberfest-logo.svg"> 黑客节
 加入[Github HackToberFest](https://hacktoberfest.com/) 开始为此项目做出贡献.
@@ -54,6 +54,12 @@
 
 
 ## 目录
+
+
+
+
+
+
 
 
 
