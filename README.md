@@ -7,8 +7,8 @@
 <p align="center"> 一个快速开发软件的平台 </p>
 
 <p align="center">
-    <a href="https://godolphinx.org/"><b>网站</b></a> •
-    <a href="https://godolphinx.org/microservice/description.html"><b>文档</b></a>
+    <a href="https://godolphinx.org/"><b>Website</b></a> •
+    <a href="https://godolphinx.org/microservice/description.html"><b>Documentation</b></a>
 </p>
 
 <div align="center">
@@ -55,7 +55,7 @@ pnpm i --frozen-lockfile
 pnpm docs:dev
 ```
 
-## 🔨开发目录
+## 🔨 开发目录
 
 ```
 ├─dolphin-ecology-docs -- 海豚生态开发文档平台
