@@ -45,28 +45,56 @@
 ## <img width="28" style="vertical-align:middle" src="https://godolphinx.org/images/hacktoberfest-logo.svg"> 黑客节
 加入[Github HackToberFest](https://hacktoberfest.com/) 开始为此项目做出贡献.
 
+## 🧑‍💻开发手册
+- [安装](#📦安装)
+- [开发目录](🔨开发目录)
+
+### 📦安装
+
+```
+pnpm i --frozen-lockfile
+```
+
+```
+pnpm docs:dev
+```
+
+### 🔨开发目录
+
+```lua
+dolphin-ecology-docs -- 海豚生态开发文档平台
+│  ├─.github -- github配置
+│  ├─docs -- vitepress文档
+│  │  ├─.vitepress -- vitepress配置
+│  │  │  ├─config -- 程序配置 
+│  │  │  ├─i18n -- 国际化
+│  │  │  ├─plugins -- 插件
+│  │  │  ├─theme -- 加载主题
+│  │  │  ├─utils -- 工具
+│  │  │  ├─vitepress vitepress主题
+│  │  │  │  ├─components -- 主题组件
+│  │  │  │  ├─composables -- 组合api
+│  │  │  │  ├─styles -- 主题样式
+│  │  │  │  ├─utils -- 主题工具
+│  │  ├─android -- 安卓开发平台文档
+│  │  ├─ios -- Ios开发平台文档
+│  │  ├─microservice -- 微服务开发平台文档
+│  │  ├─public -- 静态资源
+│  │  ├─vue3 -- vue3开发平台文档
+│  │─examples -- demo容器实例中显示的vue示例组件
+```
+
+
 ## 🤔 一起讨论
 加入我们的 [Discord](https://discord.gg/DREuQWrRYQ) 开始与大家交流。
 
-
 ## 🤗 我想成为开发团队的一员！
-欢迎😀！我们正在寻找有才华的开发者加入我们，让海豚开发平台变得更好！如果您想加入开发团队，请联系我们，非常欢迎您加入我们！❤️
-
-
-## 目录
-
-
-
-
-
-
-
-
+欢迎😀！我们正在寻找有才华的开发者加入我们，让海豚开发平台变得更好！如果您想加入开发团队，请联系我们，非常欢迎您加入我们！💖
 
 ## 在线一键设置
 您可以使用 Gitpod，一个在线 IDE（开源免费）来在线贡献或运行示例。
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/wangxiang4/dolphin-ecology-docs)
 
-## 🧾 执照
+## 📄 执照
 [Dolphin Development Platform 是获得MIT许可](https://github.com/wangxiang4/dolphin-ecology-docs/blob/master/LICENSE) 的开源软件 。
