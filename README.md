@@ -62,7 +62,7 @@ pnpm docs:dev
 ### 🔨开发目录
 
 ```
-dolphin-ecology-docs -- 海豚生态开发文档平台
+├─dolphin-ecology-docs -- 海豚生态开发文档平台
 │  ├─.github -- github配置
 │  ├─docs -- vitepress文档
 │  │  ├─.vitepress -- vitepress配置
