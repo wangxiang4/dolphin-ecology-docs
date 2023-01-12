@@ -61,7 +61,7 @@ pnpm docs:dev
 
 ### 🔨开发目录
 
-```lua
+```
 dolphin-ecology-docs -- 海豚生态开发文档平台
 │  ├─.github -- github配置
 │  ├─docs -- vitepress文档
@@ -71,7 +71,7 @@ dolphin-ecology-docs -- 海豚生态开发文档平台
 │  │  │  ├─plugins -- 插件
 │  │  │  ├─theme -- 加载主题
 │  │  │  ├─utils -- 工具
-│  │  │  ├─vitepress vitepress主题
+│  │  │  ├─vitepress -- vitepress主题
 │  │  │  │  ├─components -- 主题组件
 │  │  │  │  ├─composables -- 组合api
 │  │  │  │  ├─styles -- 主题样式
