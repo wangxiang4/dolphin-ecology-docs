@@ -56,10 +56,6 @@ jobs:
           DOC_ENV: production
           NODE_OPTIONS: --max-old-space-size=4096
 
-      - name: Stripes Auto Green
-        run: |
-          touch docs/.vitepress/dist/$(date +%s)
-
       # https://github.com/JamesIves/github-pages-deploy-action
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4.3.4
