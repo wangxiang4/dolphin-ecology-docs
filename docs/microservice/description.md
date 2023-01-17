@@ -71,3 +71,46 @@ lang: zh-CN
 - **60001:demo-dolphin-seata-order** -> 分布式解决方案演示-订单服务
 - **60002:demo-dolphin-seata-point** -> 分布式解决方案演示-积分服务
 - **60003:demo-dolphin-seata-user** -> 分布式解决方案演示-用户服务
+            
+## 项目目录
+
+```
+├─dolphin -- 父项目,各模块分离,方便微服务扩展
+│  ├─doc -- 文档数据-包含项目的一些数据资料
+│  ├─docker-cloud -- docker-compose容器配置
+│  ├─dolphin-auth -- 认证授权中心,基于 spring security oAuth2
+│  ├─dolphin-common -- 公共通用模块，主模块
+│  │  ├─dolphin-common-bom -- 全局jar BOM标准定义
+│  │  ├─dolphin-common-core -- 公共工具类核心包
+│  │  ├─dolphin-common-data -- 数据服务核心包
+│  │  ├─dolphin-common-datasource -- 动态切换数据源组件
+│  │  ├─dolphin-common-feign -- feign-sentinel服务降级熔断、限流组件
+│  │  ├─dolphin-common-job -- 定时任务,基于xxl-job
+│  │  ├─dolphin-common-log -- 日志服务
+│  │  ├─dolphin-common-mock -- 单元模拟测试工具类
+│  │  ├─dolphin-common-rocketmq -- 阿里 rocketmq 消息中间件
+│  │  ├─dolphin-common-seata -- 阿里巴巴-seata分布式事务解决方案
+│  │  ├─dolphin-common-security -- 安全工具类
+│  │  ├─dolphin-common-swagger -- 接口文档
+│  │─dolphin-common-demo -- 组件使用案列 
+│  │  ├─dolphin-common-demo-mq -- 消息中心间演示
+│  │  ├─dolphin-common-demo-seata -- 分布式事务解决方案演示
+│  │─dolphin-gateway -- 服务网关，基于 spring cloud gateway
+│  │─ddolphin-platform -- 微服务平台
+│  │  ├─dolphin-platform-api -- 微服务api调用(添加调用的微服务api依赖库,实现调用)
+│  │  │  ├─dolphin-common-api -- 通用业务模块公共api模块
+│  │  │  ├─dolphin-monitor-api -- 运维监控api模块
+│  │  │  ├─dolphin-system-api -- 系统api模块
+│  │  │  ├─dolphin-template-api -- 新建api模块模板,只提供基础依赖
+│  │  ├─dolphin-platform-biz -- 微服务业务模块
+│  │  │  ├─dolphin-common-biz -- 通用业务模块
+│  │  │  ├─dolphin-monitor-biz -- 运维监控业务模块
+│  │  │  ├─dolphin-system-biz -- 系统业务模块
+│  │  │  ├─dolphin-template-biz -- 新建业务模块模板,只提供基础依赖
+│  │─dolphin-register -- 注册配置中心
+│  │─dolphin-visual 可视化图形界面
+│  │  ├─dolphin-rocketmq-dashboard -- RocketMQ可视化监控平台
+│  │  ├─dolphin-sentinel-dashboard -- 哨兵流量控制可视化平台
+│  │  ├─dolphin-spring-dashboard -- SpringBoot可视化监控平台
+│  │  ├─dolphin-xxl-job-admin -- XXL-JOB可视化监控平台
+```
