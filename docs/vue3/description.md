@@ -10,7 +10,7 @@ lang: zh-CN
 组件方面的文档尽量看海豚前端管理系统组件部分的文档，内部大部分组件以及基于vben组件重构过，提供代码模版供快速上手开发，做到开箱即用
 提供cicd自动化部署方案，解放项目上线手动部署项目流程，让人人都能轻松部署项目，内置高德地图设计器模块实现地图基础功能，支持PWA渐进式网络应用程序
 让用户可以接近于原生app的形式进行访问，内部包含一些系统基础模块，以及一些高级模块，表单生成器，工作流设计器，大屏设计器，代码生成器模块，UReport2报表设计器
-仪表盘生成器，SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-admin)、[求攻击](https://discord.com/invite/DREuQWrRYQ)) 。
+仪表盘生成器，SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-admin)、[求攻击](https://vuejs.godolphinx.org)) 。
 
 ## 最低配置
 - 操作系统：Windows、MacOS、Linux
