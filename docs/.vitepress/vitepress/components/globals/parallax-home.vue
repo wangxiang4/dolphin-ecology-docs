@@ -16,7 +16,7 @@ const { lang } = useData(), locale = homeLocale[lang.value]
 
 function jumpTo(path: string) {
   // vitepress has not router
-  location.href = `/${path}`
+  location.href = path
 }
 
 const containerStyle: CSSProperties = {
