@@ -4,7 +4,5 @@ lang: zh-CN
 ---
 
 # 简介
-
-## 愿景
-我们的愿景是成为开源社区最好的完全免费开源所有功能(包含高级功能)IOS架构平台
-让人人都可以快速开发软件
+一个基于CocoaPods、 RxSwift、Moya、Swinject、RxTheme、Kingfisher、FLEX等前沿技术搭建的MVVM架构IOS客户端，
+一套代码多个平台运行，采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行)
