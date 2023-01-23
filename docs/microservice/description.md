@@ -3,7 +3,7 @@ title: 简介
 lang: zh-CN
 ---
 
-## 简介
+## 📄 简介
 一个基于Spring Boot 3、 Spring Cloud 2021 & Alibaba、 SAS OAuth2、Docker、RocketMQ、XXLJob等前沿技术搭建的微服务SASS多租户RBAC权限后端管理系统，
 最简单的微服务架构，内部模块清晰，严格遵守开发规范，简单明了，包含一些系统基础模块，简单的模块使用自研的海豚表单生成器或者自研的代码生成器一键动态生成(内置多种表类型生成模式)
 可以进行父子表生成，树表生成，极高的可定制化表类型生成，使用了UReport2报表设计器或者报表生成器配置Sql实现在线财务报表处理，内置大屏设计器开箱即用，重构Avue大屏设计器处理数据大屏可视化
@@ -12,7 +12,7 @@ lang: zh-CN
 集成了kkFileView预览平台实现在线在线预览Office文件，也基于MybatisPlus官方的dynamic-datasource-spring-boot-starter实现了支持多数据源，支持xxl-job分布式定时器，Seata分布式事物，分布式RocketMQ消息中间件
 ,SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin)、[求攻击](https://vuejs.godolphinx.org)) 。
 
-## 最低配置
+## 💻 最低配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：16 GB RAM
@@ -26,7 +26,7 @@ lang: zh-CN
 - mysql数据库环境: mysql 5.7.32 +
 - redis数据库环境: redis 6.2.6 +
 
-## 推荐配置
+## 💻 推荐配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：24 GB RAM
@@ -40,7 +40,7 @@ lang: zh-CN
 - Mysql数据库环境: mysql 5.7.32 +
 - Redis数据库环境: redis 6.2.6 +
 
-## 海豚微服务生态平台端口目录(包含工具,总计30个端口不包括后续添加)
+## ✨ 海豚微服务生态平台端口目录(包含工具,总计30个端口不包括后续添加)
 - **8051:prtainer-ce** -> docker可视化面板
 - **8052:mysql** -> 关系数据库
 - **6379:redis** -> 非关系型数据库
@@ -72,7 +72,7 @@ lang: zh-CN
 - **60002:demo-dolphin-seata-point** -> 分布式解决方案演示-积分服务
 - **60003:demo-dolphin-seata-user** -> 分布式解决方案演示-用户服务
             
-## 项目目录
+## 🔨 项目目录
 ```
 ├─dolphin -- 父项目,各模块分离,方便微服务扩展
 │  ├─doc -- 文档数据-包含项目的一些数据资料

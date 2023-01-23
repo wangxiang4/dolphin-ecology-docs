@@ -3,7 +3,7 @@ title: 简介
 lang: zh-CN
 ---
 
-## 简介
+## 📄 简介
 一个基于Vue3、Vite、Ant-Design-Vue、TypeScript、vxe-table、Tinymce、 Pinia、WindiCss等前沿技术搭建的前端管理系统，
 内置多种主题与大量封装组件、多租户切换、锁屏、内置两种CRUD编写方式实例(ant-design-vue纯原生组件编写,编写配置对象动态生成)，
 基于[vben](https://github.com/vbenjs/vue-vben-admin)管理系统重构,内部模块清晰，严格遵守开发规范，
@@ -12,7 +12,7 @@ lang: zh-CN
 让用户可以接近于原生app的形式进行访问，内部包含一些系统基础模块，以及一些高级模块，表单生成器，工作流设计器，大屏设计器，代码生成器模块，UReport2报表设计器
 仪表盘生成器，SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-admin)、[求攻击](https://vuejs.godolphinx.org)) 。
 
-## 最低配置
+## 💻 最低配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：4 GB RAM
@@ -23,7 +23,7 @@ lang: zh-CN
 - Docker环境: docker-compose 2.0.0 +
 - Nvm环境: Nvm 0.39.1 + (可选)
 
-## 推荐配置
+## 💻 推荐配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：8 GB RAM
@@ -34,7 +34,7 @@ lang: zh-CN
 - Docker环境: docker-compose 2.0.0 +
 - Nvm环境: Nvm 0.39.1 + (可选)
 
-## 项目目录
+## 🔨 项目目录
 ```
 ├─ dolphin-admin -- 海豚vue3-管理系统
 │  ├─build -- 构建打包配置
