@@ -3,7 +3,7 @@ title: 简介
 lang: zh-CN
 ---
 
-# 简介
+# 👨‍💻 简介
 一个基于CocoaPods、 RxSwift、Moya、Swinject、RxTheme、Kingfisher、FLEX等前沿技术搭建的MVVM架构IOS客户端，
 一套代码多个平台运行，采用了Mac Catalyst技术已适配MacOS、Ios、IpadOS (可在Iphone、Ipad、M系列芯片的MacBook下运行)，
 支持国际化默认内置英文跟中文两种语言，支持主题切换，强大的主题定制在每一个细节,内置Light和Dark两种的外观主题,以及自定义的颜色主题(默认内置十多种颜色)
@@ -14,7 +14,7 @@ lang: zh-CN
 也包含一些高级功能OA办公审批工作台，SASS多租户等等，以及后面加入的新的高级功能，全部免费开源，
 感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-ios)、[求攻击](https://github.com/wangxiang4/dolphin-ios/blob/master/Dolphin.ipa)) 。
 
-## 最低配置
+## 💻 最低配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：8 GB RAM
@@ -25,7 +25,7 @@ lang: zh-CN
 - RubyGems环境: RubyGems 3.0.3 +
 - CocoaPods环境: CocoaPods 1.11.3 +
 
-## 推荐配置
+## 💻 推荐配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程
 - 内存：16 GB RAM
@@ -36,7 +36,7 @@ lang: zh-CN
 - RubyGems环境: RubyGems 3.0.3 +
 - CocoaPods环境: CocoaPods 1.11.3 +
 
-## 新功能(不包括后续添加)
+## ✨ 新功能(不包括后续添加)
 - 1.登录支持头像3D输入移动，模型动画
 - 2.首页支持一些常用的手机权限调取操作
 - 3.OA审批工作台界面ui处理完毕
@@ -60,7 +60,7 @@ lang: zh-CN
 - 21.目前APP支持可在ipad，ios, macbook M系列芯片下允许
 - 22.目前最低适配ios14
 
-## 项目目录
+## 🔨 项目目录
 ```
 ├─ dolphin-ios -- IOS海豚APP
 │  ├─ Dolphin -- APP
