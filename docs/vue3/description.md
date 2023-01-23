@@ -30,7 +30,7 @@ lang: zh-CN
 - 内存：8 GB RAM
 - 网络：宽带互联网连接
 - 开发软件: IntelliJ IDEA 2022.1.4 +, vscode 1.63 +
-- node环境: Node 16.13.0 +
+- Node环境: Node 16.13.0 +
 - Yarn环境: Yarn 1.22.19 +
 - Docker环境: docker-compose 2.0.0 +
 - Nvm环境: Nvm 0.39.1 + (可选)

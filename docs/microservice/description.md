@@ -37,8 +37,8 @@ lang: zh-CN
 - Docker环境: docker-compose 2.10.2
 - Seata分布式事物环境: seata-server 1.4.2 +
 - RocketMQ中间件环境: rocketmq-server 4.9.0 +
-- mysql数据库环境: mysql 5.7.32 +
-- redis数据库环境: redis 6.2.6 +
+- Mysql数据库环境: mysql 5.7.32 +
+- Redis数据库环境: redis 6.2.6 +
 
 ## 海豚微服务生态平台端口目录(包含工具,总计30个端口不包括后续添加)
 - **8051:prtainer-ce** -> docker可视化面板
