@@ -14,7 +14,6 @@ lang: zh-CN
 也包含一些高级功能OA办公审批工作台，SASS多租户等等，以及后面加入的新的高级功能，全部免费开源，
 感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-ios)、[求攻击](https://github.com/wangxiang4/dolphin-ios/blob/master/Dolphin.ipa)) 。
 
-
 ## 最低配置
 - 操作系统：Windows、MacOS、Linux
 - 处理器：双核超线程

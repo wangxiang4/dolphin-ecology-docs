@@ -22,7 +22,6 @@ lang: zh-CN
 - Yarn环境: Yarn 1.22.19 +
 - Docker环境: docker-compose 2.0.0 +
 - Nvm环境: Nvm 0.39.1 + (可选)
-  
 
 ## 推荐配置
 - 操作系统：Windows、MacOS、Linux
@@ -36,7 +35,6 @@ lang: zh-CN
 - Nvm环境: Nvm 0.39.1 + (可选)
 
 ## 项目目录
-
 ```
 ├─ dolphin-admin -- 海豚vue3-管理系统
 │  ├─build -- 构建打包配置
