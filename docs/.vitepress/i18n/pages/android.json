@@ -6,6 +6,14 @@
         {
           "text": "简介",
           "link": "/description"
+        },
+        {
+          "text": "预览",
+          "link": "/preview"
+        },
+        {
+          "text": "启动",
+          "link": "/quickStart"
         }
       ]
     }
