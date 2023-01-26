@@ -173,5 +173,17 @@ brew install redis
 
 ## 9.依次按顺序启动一些开发服务,监控服务开发时可不启动
 ```shell
-
+DolphinNacosApplication :8848/
+DolphinGatewayApplication :9999/
+DolphinAuthApplication :3000/
+DolphinSystemApplication :4000/
+DolphinSystemApplication :4000/
+DolphinMonitorApplication :6000/
 ```
+![](/images/microservice/quickStart16.png)
+
+## 10.服务启动完毕
+```shell
+http://localhost:9999/doc.html
+```
+![](/images/microservice/quickStart17.png)
