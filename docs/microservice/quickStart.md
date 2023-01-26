@@ -32,6 +32,7 @@ windows: C:\Windows\System32\drivers\etc
 
 ### 2.安装JDK1.8环境
 这个大家可以去oracle官网注册一个账户进行安装，我一般是安装三个主流版本用于研究JDK源码之间的区别，跟跑一些使用了jdk11的项目，喜欢研究jdk源码的也可以安装主流版本
+
 ![](/images/microservice/quickStart3.png)
 ---
 [JDK7下载地址](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
