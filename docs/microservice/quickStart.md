@@ -33,14 +33,12 @@ windows: C:\Windows\System32\drivers\etc
 ### 2.安装JDK1.8环境
 这个大家可以去oracle官网注册一个账户进行安装，我一般是安装三个主流版本用于研究JDK源码之间的区别，跟跑一些使用了jdk11的项目，喜欢研究jdk源码的也可以安装主流版本
 
+#### 1.[JDK7下载地址](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
+---
+#### 2.[JDK8下载地址](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
+---
+#### 3.[JDK11下载地址](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
 ![](/images/microservice/quickStart3.png)
----
-[JDK7下载地址](https://www.oracle.com/java/technologies/javase/javase7-archive-downloads.html)
----
-[JDK8下载地址](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
----
-[JDK11下载地址](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
----
 
 ### 3.安装maven环境
 这个大家可以去[maven官网进行下载](https://maven.apache.org/download.cgi)，一般版本 Maven 3.3 + 就行最新的也没问题，用idea默认的捆绑maven环境也行都可以
