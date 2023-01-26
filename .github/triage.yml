@@ -1,6 +1,0 @@
----
-autoAssignWhenPRCreated: true
-firstTimePRLabels:
-  - 1st contribution
-labelsWhenPROpened:
-  - Needs Review
