@@ -12,7 +12,7 @@ lang: zh-CN
 加人了SnapKit视图自动布局处理，让纯手写场景视图控制编写布局约束更加简单，一行代码搞定，整体采用 Swift5 编写，
 内部大量使用了RXSwift与Rx扩展来构建功能，抽离了视图、模型层内部采用RX进行数据绑定，明确层级职责，让代码维护变得更简单，
 也包含一些高级功能OA办公审批工作台，SASS多租户等等，以及后面加入的新的高级功能，全部免费开源，
-感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-ios)、[求攻击](https://github.com/wangxiang4/dolphin-ios/blob/master/Dolphin.ipa)) 。
+感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-ios)、[求赞助](/sponsors/index)) 。
 
 ## 💻 最低配置
 - 操作系统：Windows、MacOS、Linux

@@ -128,7 +128,7 @@ useEventListener(window, 'scroll', handleScroll)
     <div class="banner text-center">
       <div class="banner-desc mt-4">
         <h1>{{ locale['title'] }}</h1>
-        <p class="mt-2">{{ locale['title_sub'] }}</p>
+        <p class="mt-2">{{ locale['titleSub'] }}</p>
       </div>
     </div>
     <div ref="jumbotronRef" class="jumbotron">

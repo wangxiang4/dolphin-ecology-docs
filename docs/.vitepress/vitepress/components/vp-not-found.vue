@@ -13,7 +13,7 @@ const goHome = () => {
     </div>
     <h1>{{ locale.title }}</h1>
     <el-button type="primary" link @click="goHome">
-      {{ locale['button-title'] }}
+      {{ locale['buttonTitle'] }}
     </el-button>
   </div>
 </template>

@@ -22,6 +22,8 @@ declare module '@vue/runtime-core' {
     RightLayerMoonSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-moon-svg.vue')['default']
     RightLayerSunSvg: typeof import('./.vitepress/vitepress/components/home/svg/right-layer-sun-svg.vue')['default']
     ScreenSvg: typeof import('./.vitepress/vitepress/components/home/svg/screen-svg.vue')['default']
+    Sponsors: typeof import('./.vitepress/vitepress/components/globals/sponsors.vue')['default']
+    SponsorsSupport: typeof import('./.vitepress/vitepress/components/globals/sponsors-support.vue')['default']
     ToggleButton: typeof import('./.vitepress/vitepress/components/icons/toggle-button.vue')['default']
     ToggleSidebarBtn: typeof import('./.vitepress/vitepress/components/subnav/toggle-sidebar-btn.vue')['default']
     VersionTag: typeof import('./.vitepress/vitepress/components/dev/VersionTag.vue')['default']

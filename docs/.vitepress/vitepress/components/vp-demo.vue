@@ -46,11 +46,11 @@ const decodedDescription = computed(() =>
 const copyCode = async () => {
   const { $message } = vm.appContext.config.globalProperties
   if (!isSupported) {
-    $message.error(locale.value['copy-error'])
+    $message.error(locale.value['copyError'])
   }
   try {
     await copy()
-    $message.success(locale.value['copy-success'])
+    $message.success(locale.value['copySuccess'])
   } catch (e: any) {
     $message.error(e.message)
   }
@@ -68,12 +68,12 @@ const copyCode = async () => {
       <ElDivider class="m-0" />
 
       <div class="op-btns">
-        <ElTooltip :content="locale['copy-code']" :show-arrow="false">
+        <ElTooltip :content="locale['copyCode']" :show-arrow="false">
           <ElIcon :size="16" class="op-btn" @click="copyCode">
             <i-ri-file-copy-line />
           </ElIcon>
         </ElTooltip>
-        <ElTooltip :content="locale['view-source']" :show-arrow="false">
+        <ElTooltip :content="locale['viewSource']" :show-arrow="false">
           <ElIcon :size="16" class="op-btn" @click="toggleSourceVisible()">
             <i-ri-code-line />
           </ElIcon>
@@ -93,7 +93,7 @@ const copyCode = async () => {
           <ElIcon :size="16">
             <CaretTop />
           </ElIcon>
-          <span>{{ locale['hide-source'] }}</span>
+          <span>{{ locale['hideSource'] }}</span>
         </div>
       </Transition>
     </div>

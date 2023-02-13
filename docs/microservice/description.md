@@ -10,7 +10,7 @@ lang: zh-CN
 内置仪表盘跟图表生成器让用户更加容易分析数据理解数据观点，推荐使用仪表盘，图表生成器只能进行简单的图表数据可视化处理，内部集成了Flowable工作流引擎跟自研的bpmn.io工作流设计器
 实现工作流实现OA办公，还支持工作流动态表单配置，这里是使用了自研的海豚表单生成器实现处理，支持一些高级工作流功能列如多实例会签、定时器触发、子流程、泳道、邮箱任务、并行网关、包容网关、事件网关等等
 集成了kkFileView预览平台实现在线在线预览Office文件，也基于MybatisPlus官方的dynamic-datasource-spring-boot-starter实现了支持多数据源，支持xxl-job分布式定时器，Seata分布式事物，分布式RocketMQ消息中间件
-,SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin)、[求攻击](https://vuejs.godolphinx.org)) 。
+,SASS多租户等等一系列高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin)、[求赞助](/sponsors/index)) 。
 
 ## 💻 最低配置
 - 操作系统：Windows、MacOS、Linux

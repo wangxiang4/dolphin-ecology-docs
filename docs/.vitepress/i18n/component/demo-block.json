@@ -1,16 +1,16 @@
 {
   "en-US": {
-    "view-source": "View source",
-    "hide-source": "Hide source",
-    "copy-code": "Copy code",
-    "copy-success": "Copied!",
-    "copy-error": "This browser does not support automatic copy！"
+    "viewSource": "View source",
+    "hideSource": "Hide source",
+    "copyCode": "Copy code",
+    "copySuccess": "Copied!",
+    "copyError": "This browser does not support automatic copy！"
   },
   "zh-CN": {
-    "view-source": "查看源代码",
-    "hide-source": "隐藏源代码",
-    "copy-code": "复制代码",
-    "copy-success": "已复制！",
-    "copy-error": "此浏览器不支持自动复制！"
+    "viewSource": "查看源代码",
+    "hideSource": "隐藏源代码",
+    "copyCode": "复制代码",
+    "copySuccess": "已复制！",
+    "copyError": "此浏览器不支持自动复制！"
   }
 }
