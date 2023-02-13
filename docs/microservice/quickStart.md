@@ -6,7 +6,7 @@ lang: zh-CN
 注意：windows跟macos有一些安装步骤可能存在一些差异，windows用户可自行搜索进行安装或者去官网进行安装
 
 ## 1.克隆项目
-![](/images/microservice/quickStart1.png)
+![](/images/microservice/quickStart/quickStart1.png)
 
 ## 2.安装依赖
 
@@ -16,7 +16,7 @@ lang: zh-CN
 macos: /etc/hosts
 windows: C:\Windows\System32\drivers\etc
 ```
-![](/images/microservice/quickStart2.png)
+![](/images/microservice/quickStart/quickStart2.png)
 ```shell
 127.0.0.1  dolphin-register
 127.0.0.1  dolphin-gateway
@@ -38,7 +38,7 @@ windows: C:\Windows\System32\drivers\etc
 #### 2.[JDK8下载地址](https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html)
 ---
 #### 3.[JDK11下载地址](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html)
-![](/images/microservice/quickStart3.png)
+![](/images/microservice/quickStart/quickStart3.png)
 
 ### 3.安装maven环境
 这个大家可以去[maven官网进行下载](https://maven.apache.org/download.cgi)，一般版本 Maven 3.3 + 就行最新的也没问题，用idea默认的捆绑maven环境也行都可以
@@ -135,40 +135,40 @@ brew install redis
 ```
 
 ## 3.打开idea开发工具配置好maven
-![](/images/microservice/quickStart4.png)
+![](/images/microservice/quickStart/quickStart4.png)
 
 ## 4.等待项目依赖安装完毕
-![](/images/microservice/quickStart5.png)
+![](/images/microservice/quickStart/quickStart5.png)
 
 ## 5.导入数据库文件,库名称跟文件名保持一致就行
-![](/images/microservice/quickStart6.png)
-![](/images/microservice/quickStart7.png)
+![](/images/microservice/quickStart/quickStart6.png)
+![](/images/microservice/quickStart/quickStart7.png)
 
 ## 6.配置nacos数据源
-![](/images/microservice/quickStart8.png)
+![](/images/microservice/quickStart/quickStart8.png)
 
 ## 7.启动nacos
-![](/images/microservice/quickStart9.png)
+![](/images/microservice/quickStart/quickStart9.png)
 
 ## 8.去nacos dev开发环境配置微服务数据源
 
 ### 1.application.yml
-![](/images/microservice/quickStart10.png)
+![](/images/microservice/quickStart/quickStart10.png)
 
 ### 2.dolphin-system-biz.yml
-![](/images/microservice/quickStart11.png)
+![](/images/microservice/quickStart/quickStart11.png)
 
 ### 3.dolphin-xxl-job-admin.yml
-![](/images/microservice/quickStart12.png)
+![](/images/microservice/quickStart/quickStart12.png)
 
 ### 4.dolphin-auth.yml
-![](/images/microservice/quickStart13.png)
+![](/images/microservice/quickStart/quickStart13.png)
 
 ### 5.dolphin-monitor-biz
-![](/images/microservice/quickStart14.png)
+![](/images/microservice/quickStart/quickStart14.png)
 
 ### 6.dolphin-common-biz
-![](/images/microservice/quickStart15.png)
+![](/images/microservice/quickStart/quickStart15.png)
 
 ## 9.依次按顺序启动一些开发服务,监控服务开发时可不启动
 ```shell
@@ -179,10 +179,10 @@ DolphinSystemApplication :4000/
 DolphinSystemApplication :4000/
 DolphinMonitorApplication :6000/
 ```
-![](/images/microservice/quickStart16.png)
+![](/images/microservice/quickStart/quickStart16.png)
 
 ## 10.服务启动完毕
 ```shell
 http://localhost:9999/doc.html
 ```
-![](/images/microservice/quickStart17.png)
+![](/images/microservice/quickStart/quickStart17.png)
