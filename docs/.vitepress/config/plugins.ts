@@ -6,7 +6,7 @@ import { highlight } from '../utils/highlight'
 
 const localMd = MarkdownIt()
 
-const docRoot = path.resolve(__dirname, '..', '..')
+const docRoot = path.resolve(__dirname, '..', '..', '..')
 
 const containerRegExp = /^demo\s*(.*)$/
 

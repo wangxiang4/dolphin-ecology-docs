@@ -30,7 +30,7 @@ const { lang } = useData()
 const formatPathDemos = computed(() => {
   const demos = {}
   Object.keys(props.demos).forEach((key) => {
-    demos[key.replace('../examples/', '').replace('.vue', '')] =
+    demos[key.replace('../../examples/', '').replace('.vue', '')] =
       props.demos[key].default
   })
 
