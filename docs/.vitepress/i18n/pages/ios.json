@@ -16,6 +16,24 @@
           "link": "/quickStart"
         }
       ]
+    },
+    "component": {
+      "text": "功能"
+    },
+    "other": {
+      "text": "其他",
+      "children": [
+        {
+          "text": "部署上线",
+          "link": "/deployOnline",
+          "promotion": "1.0.0"
+        },
+        {
+          "text": "编码规范",
+          "link": "/codingStyle",
+          "promotion": "1.0.0"
+        }
+      ]
     }
   }
 }
