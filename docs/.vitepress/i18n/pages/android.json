@@ -16,6 +16,15 @@
           "link": "/quickStart"
         }
       ]
+    },
+    "component": {
+      "text": "功能",
+      "children": [
+        {
+          "text": "友盟消息推送",
+          "link": "/messagePush"
+        }
+      ]
     }
   }
 }
