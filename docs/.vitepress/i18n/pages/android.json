@@ -32,6 +32,10 @@
         {
           "text": "部署上线",
           "link": "/deployOnline"
+        },
+        {
+          "text": "编码规范",
+          "link": "/codingStyle"
         }
       ]
     }
