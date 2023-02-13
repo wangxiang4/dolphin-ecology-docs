@@ -2,7 +2,7 @@ import path from 'path'
 
 import type { Plugin } from 'vite'
 
-type Append = Record<'headers' | 'scriptSetups', string[]>
+type Append = Record<'headers' | 'footers' | 'scriptSetups', string[]>
 
 export function MarkdownTransform(): Plugin {
   return {
@@ -15,6 +15,7 @@ export function MarkdownTransform(): Plugin {
       // 加载md中demo容器的实例文件
       const append: Append = {
         headers: [],
+        footers: [],
         scriptSetups: [
           `const demos = import.meta.globEager('../examples/${componentId}/*.vue')`,
         ],
@@ -24,7 +25,8 @@ export function MarkdownTransform(): Plugin {
 
       return combineMarkdown(
         code,
-        [combineScriptSetup(append.scriptSetups), ...append.headers]
+        [combineScriptSetup(append.scriptSetups), ...append.headers],
+        append.footers
       )
     },
   }
@@ -38,15 +40,17 @@ ${codes.join('\n')}
 
 const combineMarkdown = (
   code: string,
-  headers: string[]
+  headers: string[],
+  footers: string[]
 ) => {
-  const frontmatterEnds = code.indexOf("---", 2) + 4
+  const frontmatterEnds = code.indexOf('---\n\n') + 4
   const firstSubheader = code.search(/\n## \w/)
   const sliceIndex = firstSubheader < 0 ? frontmatterEnds : firstSubheader
+
   if (headers.length > 0)
     code =
       code.slice(0, sliceIndex) + headers.join('\n') + code.slice(sliceIndex)
-  code
+  code += footers.join('\n')
 
   return `${code}\n`
 }

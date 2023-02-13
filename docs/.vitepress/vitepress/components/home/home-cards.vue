@@ -10,7 +10,7 @@ const { lang } = useData(), navs = useNav(), homeLang = computed(() => homeLocal
   <div class="cards">
     <ul class="container">
       <li v-for="item in navs" :key="item.link">
-        <div class="card">
+        <div class="card" v-if="item.hasOwnProperty('homeCardType')">
           <micro-service-svg v-if="item.homeCardType == 'microservice' " w="40" m="y-12" />
           <vue3-svg v-if="item.homeCardType == 'vue3' " w="40" m="y-12" />
           <ios-svg v-if="item.homeCardType == 'ios' " w="40" m="y-12" />

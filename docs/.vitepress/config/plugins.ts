@@ -21,7 +21,6 @@ export const mdPlugin = (md) => {
       if (tokens[idx].nesting === 1) {
         // opening tag.
         // :::demo Use `disabled` attribute to determine whether a button is disabled. It accepts a `Boolean` value.
-        // 
         const description = m && m.length > 1 ? m[1] : ''
         const sourceFileToken = tokens[idx + 2]
         const sourceFile = sourceFileToken.content ?? ""
@@ -30,7 +29,7 @@ export const mdPlugin = (md) => {
           'utf-8'
         ) : undefined
         if (!source) throw new Error(`Incorrect source file: ${sourceFile}`)
-        return `<VPDemo
+        return `<VpDemo
                   :demos="demos"
                   source="${encodeURIComponent(highlight(source, 'vue'))}"
                   path="${sourceFile}" raw-source="${encodeURIComponent(source)}"
@@ -38,7 +37,7 @@ export const mdPlugin = (md) => {
                 `
       } else {
         // closing tag
-        return '</VPDemo>'
+        return '</VpDemo>'
       }
     }
   })
