@@ -3,6 +3,8 @@ title: 友盟消息推送
 lang: zh-CN
 ---
 
+使用友盟前需要关闭翻墙软件，友盟做了国外 ip 限制
+
 ## 1. 注册一个友盟账户进入友盟u-push平台,创建一个应用
 注意: 包名对应 AndroidManifest.xml 下的 package 属性
 
