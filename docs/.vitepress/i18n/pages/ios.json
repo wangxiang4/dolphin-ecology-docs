@@ -18,7 +18,13 @@
       ]
     },
     "component": {
-      "text": "功能"
+      "text": "功能",
+      "children": [
+        {
+          "link": "/deployOnline",
+          "promotion": "待开中"
+        }
+      ]
     },
     "other": {
       "text": "其他",
