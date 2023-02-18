@@ -55,7 +55,7 @@ const getSidebars = () => {
 }
 
 type Item = {
-  text: string
+  text?: string
   children?: Item[]
   link?: string
 }
