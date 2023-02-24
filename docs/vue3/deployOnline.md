@@ -91,6 +91,7 @@ lang: zh-CN
 ![](/images/vue3/deployOnline/21.png)
 
 现在点击git提交会自动部署项目 vercel 实现 github 提交钩子的监听，项目在 vercel 上创建就会跟 github 绑定上，实现 cicd 自动部署功能
+默认情况下，Vercel将为您的域颁发并自动续订SSL证书，所以也无需考虑https证书问题
 
 ### 4.查看 Functions 函数，是否配置成功
 
