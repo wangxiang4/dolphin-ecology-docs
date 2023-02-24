@@ -56,3 +56,7 @@ macos 推荐使用 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/c
 没有的话可以填写自己的邮箱然后填写国外手机号码跟激活验证码也可以注册
 ![](/images/vue3/registerChatGpt/14.png)
 ![](/images/vue3/registerChatGpt/15.png)
+
+也可以使用第三方开源的ChatGpt应用进行连接
+[下载地址](https://github.com/lencx/ChatGPT/releases/tag/v0.11.0)
+![](/images/vue3/registerChatGpt/17.png)
