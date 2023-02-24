@@ -3,8 +3,6 @@ title: 启动
 lang: zh-CN
 ---
 
-注意：windows跟macos有一些安装步骤可能存在一些差异，windows用户可自行搜索进行安装或者去官网进行安装
-
 ## 1.克隆项目
 ![](/images/microservice/quickStart/quickStart1.png)
 
@@ -93,6 +91,8 @@ maven配置，打开maven下的settings.xml文件写入
 ```
 
 ### 4.安装Mysql数据库环境
+**注意: win系统安装去问[ChatGpt](https://chat.openai.com/chat)**
+
 这里数据库安装 mysql 5.7.32 + 就行，可以去[官网进行安装](https://downloads.mysql.com/archives/community/) 或者
 使用macos的[包用管理工具brew](https://brew.sh/)进行安装
 
@@ -125,6 +125,8 @@ max_allowed_packet = 16M
 ```
 
 ### 5.安装Redis
+**注意: win系统安装去问[ChatGpt](https://chat.openai.com/chat)**
+
 这里数据库安装 redis 6.2.6 + 就行，可以去[官网进行安装](https://redis.io/download/) 或者
 使用macos的[包用管理工具brew](https://brew.sh/)进行安装
 

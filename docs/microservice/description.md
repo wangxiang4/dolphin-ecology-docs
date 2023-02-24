@@ -4,7 +4,7 @@ lang: zh-CN
 ---
 
 ## 📄 简介
-一个基于Spring Boot 3、 Spring Cloud 2021 & Alibaba、 SAS OAuth2、Docker、RocketMQ、XXLJob等前沿技术搭建的微服务SASS多租户RBAC权限后端管理系统，
+一个基于SpringBoot3、SpringCloud2021 & Alibaba、SAS、OAuth2、Docker、RocketMQ、XXLJob等前沿技术搭建的微服务SASS多租户RBAC权限后端管理系统，
 最简单的微服务架构，内部模块清晰，严格遵守开发规范，简单明了，包含一些系统基础模块，简单的模块使用自研的海豚表单生成器或者自研的代码生成器一键动态生成(内置多种表类型生成模式)
 可以进行父子表生成，树表生成，极高的可定制化表类型生成，使用了UReport2报表设计器或者报表生成器配置Sql实现在线财务报表处理，内置大屏设计器开箱即用，重构Avue大屏设计器处理数据大屏可视化
 内置仪表盘跟图表生成器让用户更加容易分析数据理解数据观点，推荐使用仪表盘，图表生成器只能进行简单的图表数据可视化处理，内部集成了Flowable工作流引擎跟自研的bpmn.io工作流设计器
