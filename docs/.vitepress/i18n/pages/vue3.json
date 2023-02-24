@@ -33,6 +33,10 @@
           "text": "编码规范",
           "link": "/codingStyle",
           "promotion": "1.0.0"
+        },
+        {
+          "text": "申请ChatGpt",
+          "link": "/registerChatGpt"
         }
       ]
     }
