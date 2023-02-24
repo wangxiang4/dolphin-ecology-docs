@@ -19,7 +19,12 @@
     },
     "component": {
       "text": "功能",
-      "children": []
+      "children": [
+        {
+          "text": "全局组件",
+          "link": "/globalComponent"
+        }
+      ]
     },
     "other": {
       "text": "其他",
