@@ -13,7 +13,7 @@
     "dolphin-ecology",
     "dolphin-ecology-docs"
   ],
-  "author": "海豚生态计划-开发人员-王翔",
+  "author": "海豚生态-开发人员-王翔",
   "license": "MIT",
   "dependencies": {
     "@docsearch/js": "^3.1.0",
