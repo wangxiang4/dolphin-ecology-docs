@@ -26,6 +26,7 @@ macos 推荐使用 [ClashX Pro](https://install.appcenter.ms/users/clashx/apps/c
 ![](/images/vue3/registerChatGpt/5.png)
 
 ## 3.购买国外虚拟号码获取验证码
+[国外虚拟号码短信激活服务购买地址](https://sms-activate.org)
 
 没注册的可以先点击右上角注册
 ![](/images/vue3/registerChatGpt/6.png)
