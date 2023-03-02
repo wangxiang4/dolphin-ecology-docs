@@ -16,6 +16,31 @@
           "link": "/quickStart"
         }
       ]
+    },
+    "component": {
+      "text": "功能",
+      "children": []
+    },
+    "other": {
+      "text": "其他",
+      "children": [
+        {
+          "text": "Jenkins部署上线",
+          "link": "/jenkinsDeployOnline"
+        },
+        {
+          "text": "DockerCompose部署上线",
+          "link": "/dockerComposeDeployOnline"
+        },
+        {
+          "text": "kubernetes部署上线",
+          "link": "/kubernetesDeployOnline"
+        },
+        {
+          "text": "编码规范",
+          "link": "/codingStyle"
+        }
+      ]
     }
   }
 }
