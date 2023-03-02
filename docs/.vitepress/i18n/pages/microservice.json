@@ -45,6 +45,14 @@
           "link": "/microserviceCall"
         },
         {
+          "text": "流量削峰",
+          "link": "/limitFlow"
+        },
+        {
+          "text": "熔断降级",
+          "link": "/downgradeFuse"
+        },
+        {
           "text": "网关配置",
           "link": "/gatewayConfig"
         },
