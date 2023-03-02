@@ -19,7 +19,48 @@
     },
     "component": {
       "text": "功能",
-      "children": []
+      "children": [
+        {
+          "text": "微服务授权",
+          "link": "/authorize"
+        },
+        {
+          "text": "分布式定时器",
+          "link": "/distributedTimer"
+        },
+        {
+          "text": "多数据源",
+          "link": "/dataSources"
+        },
+        {
+          "text": "分布式事物",
+          "link": "/distributedTransaction"
+        },
+        {
+          "text": "消息中间件",
+          "link": "/messageMQ"
+        },
+        {
+          "text": "微服务调用",
+          "link": "/microserviceCall"
+        },
+        {
+          "text": "网关配置",
+          "link": "/gatewayConfig"
+        },
+        {
+          "text": "OSS文件管理",
+          "link": "/ossFileManage"
+        },
+        {
+          "text": "微服务接口文档",
+          "link": "/interfaceDoc"
+        },
+        {
+          "text": "短信注册接入",
+          "link": "/smsRegister"
+        }
+      ]
     },
     "other": {
       "text": "其他",
