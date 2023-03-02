@@ -3,7 +3,7 @@ title: 编码规范
 lang: zh-CN
 ---
 
-## 1.下载 Alibaba Java Coding Guidelines 管理（可选）
+## 1.下载 Alibaba Java Coding Guidelines 管理代码规范（可选）
 ![](/images/microservice/codingStyle/1.png)
 
 ## 2.建表规范
