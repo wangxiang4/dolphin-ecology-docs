@@ -125,9 +125,9 @@ docker rm -f dolphin-monitor
 # 删除指定的镜像
 docker rmi -f dolphin-gateway
 docker rmi -f dolphin-auth
-docker rmi -f dolphin-system
-docker rmi -f dolphin-common
-docker rmi -f dolphin-monitor
+docker rmi -f dolphin-system-biz
+docker rmi -f dolphin-common-biz
+docker rmi -f dolphin-monitor-biz
 
 # 部署指定的容器
 docker-compose up -d dolphin-gateway
