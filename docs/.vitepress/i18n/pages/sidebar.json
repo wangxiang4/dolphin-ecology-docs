@@ -28,12 +28,6 @@
       "activeMatch": "/android/",
       "homeCardType": "android",
       "description": "一个基于AndroidX、RxAndroid、Retrofit、Glide、AndroidUtilCode、Dagger2、Calligraphy3、Lombok、友盟、MMKV等前沿技术搭建的MVVM架构Android客户端，可进行QQ登录，微信登录。"
-    },
-    {
-      "text": "赞助支持",
-      "link": "/sponsors/index",
-      "activeMatch": "/sponsors/",
-      "description": "海豚生态平台是采用MIT许可的开源项目，使用完全免费，但是随着项目规模的增长，也需要有相应的资金支持才能持续项目的维护的开发，你可以通过下列的方法来赞助海豚生态平台的开发。"
     }
   ]
 }
