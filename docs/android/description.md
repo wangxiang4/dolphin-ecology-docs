@@ -16,7 +16,7 @@ Lombok、友盟、 MMKV等前沿技术搭建的MVVM架构Android客户端，可�
 集成高德地图支持地图后台定位刷新不被杀死，并且支持地图gps旋转方向变化跟地图导航，支持媒体锁在后台保活应用程序，提供通用下载上传，一行代码解决上传下载支持进度条显示，
 提供RxBus、信使、支持全局组件通信发布订阅，封装基础Activity、ViewModel、Fragment类提取通用属性消除冗余，初始化视图数据绑定，提供碎片容器活动，避免创建一个活动就要取注册一次
 集成AdvancedRecyclerView支持各种回收视图高级适配器操作(可滑动列表，可拖拽列表)，总体架构借用了后端B/S三层(高内聚，低耦合)思想 mapper、service、ui 
-(mapper对应接口，service对应业务，ui对应控制层) 以及后面加入的新的高级功能，全部免费开源，感觉还不错的话，一键三连([求关注](https://github.com/wangxiang4)、[求点赞](https://github.com/wangxiang4/dolphin-ios)、[求赞助](/sponsors/index)) 。
+(mapper对应接口，service对应业务，ui对应控制层)。
 
 
 ## 💻 最低配置
